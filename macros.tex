@@ -1,0 +1,60 @@
+% define constants%
+%
+\newdimen\chordsaboveline%
+\chordsaboveline=\bigskipamount%
+%
+\newdimen\minchordseparation%
+\minchordseparation=0.5em%
+%
+\newdimen\chorddisplacementtolerance%
+\chorddisplacementtolerance=3pt%
+%
+\newdimen\chordextraspacetolerance%
+\chordextraspacetolerance=1em%
+%
+% define variables%
+%
+\newdimen\res%
+\newdimen\bottomline%
+\newdimen\topline%
+\newdimen\tempdimen%
+\newdimen\currentlyricskip%
+%
+% define macros%
+%
+\def\measure#1{{\setbox0=\hbox{#1}\global\res=\wd0}}%
+\def\chordline#1{{%
+%
+\def\chordformat##1{\hbox{\bf ##1}}%
+\def\setchord##1{\hbox{\raise\chordsaboveline\chordformat{##1}}}%
+%
+\bottomline=0pt%
+\topline=0pt%
+\currentlyricskip=0pt%
+%
+\def\topcontent{}%
+\def\bottomcontent{}%
+%
+\def\lyricsspace##1{\ifdim\currentlyricskip>0pt\edef\doskip{\hskip\the\currentlyricskip}\else\def\doskip{}\fi\currentlyricskip=0pt\edef\bottomcontent{\bottomcontent\doskip##1}\measure{\bottomcontent}\bottomline=\res}%
+\def\lyrics##1{\ifdim\currentlyricskip>0pt\advance\currentlyricskip by -\chorddisplacementtolerance\edef\doskip{\hskip0.5\chorddisplacementtolerance\hbox{\vrule width\the\currentlyricskip height0.6ex depth-0.5ex}\hskip0.5\chorddisplacementtolerance}\else\def\doskip{}\fi\currentlyricskip=0pt\edef\bottomcontent{\bottomcontent\doskip##1}\measure{\bottomcontent}\bottomline=\res}%
+\def\chord##1{%
+\ifdim\bottomline>\topline%
+\tempdimen=\bottomline%
+\advance\tempdimen by -\topline%
+\edef\topcontent{\topcontent\hskip\the\tempdimen\setchord{##1}\hskip\minchordseparation}%
+\else%
+\tempdimen=\topline%
+\advance\tempdimen by -\bottomline%
+\ifdim\tempdimen<\chorddisplacementtolerance%
+\edef\topcontent{\topcontent\setchord{##1}\hskip\minchordseparation}%
+\else%
+\currentlyricskip=\tempdimen%
+\edef\topcontent{\topcontent\setchord{##1}\hskip\minchordseparation}%
+\fi%
+\fi%
+\measure{\topcontent}%
+\topline=\res%
+}%
+#1%
+\hbox{\hbox to 0pt{\topcontent\hss}\bottomcontent}%
+}}%
