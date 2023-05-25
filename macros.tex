@@ -1,4 +1,6 @@
-% define constants%
+%
+%
+% define constants
 %
 \newdimen\chordsaboveline%
 \chordsaboveline=\bigskipamount%
@@ -8,6 +10,12 @@
 %
 \newdimen\chorddisplacementtolerance%
 \chorddisplacementtolerance=3pt%
+%
+\newdimen\startskip%
+\startskip=1em%
+%
+\newdimen\blockseparator%
+\blockseparator=\bigskipamount%
 %
 \newdimen\chordextraspacetolerance%
 \chordextraspacetolerance=1em%
@@ -58,3 +66,11 @@
 #1%
 \hbox{\hbox to 0pt{\topcontent\hss}\bottomcontent}%
 }}%
+\def\song#1{
+\def\verse##1{\vbox{##1}\def\verse####1{\vskip\blockseparator\vbox{####1}}}
+#1
+}
+\newcount\songcount
+\songcount=1
+\def\songheader#1#2{\the\songcount. #1\par#2\par\advance\songcount by 1}
+\catcode`\#=11
