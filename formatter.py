@@ -30,25 +30,31 @@ def convert(source, target):
             if line:
                 any_lyrics = False
                 in_lyrics = False
-                last_space = False
+                last_space = True
                 depth=0
                 f.write(r'\chordline{')
                 for character in line:
-                    if character == '[':
+                    if character in '<[':
                         depth += 1
                         if depth == 1:
                             if in_lyrics:
                                 f.write(r'}')
                                 in_lyrics = False
                             f.write(r'\chord{')
+                            if character == '<':
+                                f.write(r'{\rm ')
                     elif character == ']':
                         depth -= 1
                         if depth == 0:
                             f.write('}')
+                    elif character == '>':
+                        depth -= 1
+                        if depth == 0:
+                            f.write('}}')
                     else:
                         if character == ' ' and not depth and not any_lyrics:
                             any_lyrics = True
-                            f.write(r'\lyrics{\hskip\startskip}')
+                            f.write(r'\lyricsspace{\hskip\startskip}')
                             continue
                         if not depth and not in_lyrics:
                             in_lyrics = True

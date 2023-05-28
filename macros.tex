@@ -16,6 +16,7 @@
 %
 \newdimen\blockseparator%
 \blockseparator=\bigskipamount%
+\advance\blockseparator by -1pt
 %
 \newdimen\chordextraspacetolerance%
 \chordextraspacetolerance=1em%
@@ -30,10 +31,12 @@
 %
 % define macros%
 %
+% macros for chords
 \def\measure#1{{\setbox0=\hbox{#1}\global\res=\wd0}}%
 \def\chordline#1{{%
 %
-\def\chordformat##1{\hbox{\bf ##1}}%
+\def\chordstrut{\hbox{\vrule height 10pt width 0pt depth 3.5pt}}
+\def\chordformat##1{\hbox{\chordstrut\bf ##1}}%
 \def\setchord##1{\hbox{\raise\chordsaboveline\chordformat{##1}}}%
 %
 \bottomline=0pt%
@@ -64,13 +67,31 @@
 \topline=\res%
 }%
 #1%
+\ifdim\bottomline > \topline
 \hbox{\hbox to 0pt{\topcontent\hss}\bottomcontent}%
+\else
+\hbox{\hbox to 0pt{\bottomcontent\hss}\topcontent}%
+\fi
+\ifdim\bottomline=0pt
+\vskip -6pt
+\fi
 }}%
+%
+% Macros for verses and songs
+%
 \def\song#1{
 \def\verse##1{\vbox{##1}\def\verse####1{\vskip\blockseparator\vbox{####1}}}
+%\def\verse##1{{##1}\def\verse####1{\vskip\blockseparator{####1}}}
 #1
 }
+%
+% Macros for song headers
+%
 \newcount\songcount
 \songcount=1
-\def\songheader#1#2{\the\songcount. #1\par#2\par\advance\songcount by 1}
+\font\numberfont=\fontname\tenbf\space scaled 2500
+\font\namefont=\fontname\tenbf\space scaled 1500
+\font\authorfont=\fontname\tenrm\space scaled 700
+\def\numberstrut{\hbox{\vrule height 20pt width 0pt depth 3.5pt}}
+\def\songheader#1#2{\hbox{\vbox{\hrule\hbox to 1.5cm{\vrule\hss\numberstrut\numberfont\the\songcount\vrule}\hrule}\hskip 0.5em\hbox{\vbox{\hbox{\namefont #1}\hbox{\authorfont #2}}}}\vskip\blockseparator\advance\songcount by 1}
 \catcode`\#=11

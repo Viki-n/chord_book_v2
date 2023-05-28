@@ -1,6 +1,9 @@
 Název
 Autor
 
+Intro:
+[D][F#mi]<x4>
+
 [E]I hear the drums [G#mi]echoin to[C#mi]night
 [E]She has only [D]whispers of some [F#mi]quiet conver[C#mi]sa[D]tion[F#mi]
 [E]She's coming [G#mi]in twelve thirty [C#mi]flight, the [E]moonlit wings
