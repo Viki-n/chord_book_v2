@@ -21,13 +21,30 @@
 \newdimen\chordextraspacetolerance%
 \chordextraspacetolerance=1em%
 %
+\newdimen\minnextsongspace%
+\minnextsongspace=0.4\vsize%
+%
+\newdimen\colseparator%
+\colseparator=2em%
+%
+\newdimen\colwidth
+\colwidth=0.5\hsize
+\advance\colwidth by -0.5\colseparator
+%
 % define variables%
 %
+\newdimen\cursongspace
 \newdimen\res%
 \newdimen\bottomline%
 \newdimen\topline%
 \newdimen\tempdimen%
 \newdimen\currentlyricskip%
+\newdimen\currentspaceleft
+%
+\newif\ifleftpage
+\newif\ifstartpage
+\newif\ifcolumnable
+\newif\ifsuccess
 %
 % define macros%
 %
@@ -95,3 +112,171 @@
 \def\numberstrut{\hbox{\vrule height 20pt width 0pt depth 3.5pt}}
 \def\songheader#1#2{\hbox{\vbox{\hrule\hbox to 1.5cm{\vrule\hss\numberstrut\numberfont\the\songcount\vrule}\hrule}\hskip 0.5em\hbox{\vbox{\hbox{\namefont #1}\hbox{\authorfont #2}}}}\vskip\blockseparator\advance\songcount by 1}
 \catcode`\#=11
+%
+\long\def\fullsong{#1}{#2}{#3}{
+\setbox1=\vbox{\song{#3}}
+\setbox2=\vbox{\songheader{#1}{#2}}
+\successfalse
+\advance\spaceleft by -\pagetotal
+\ifdim\currentspaceleft < \minnextsongspace
+\vfill\eject
+\fi
+\ifodd\pageno\leftpagetrue\else\leftpagefalse\fi
+\ifdim\pagetotal=0pt\startpagetrue\else\startpagefalse\fi
+\ifdim\wd1>\colwidth\columnablefalse\else\columnabletrue\fi
+\typesetsong{#1}
+}
+%
+% Correct handling of page breaks
+%
+% Macro that ensues you are on the top of an even numbered page
+%
+\def\openleft{
+\vfill\eject
+\ifodd\pageno\hbox{}\vfill\eject\fi
+}
+%
+% Typeset -- wrapper method that calls correct submethod
+%
+\def\typesetsong#1{
+\message{typesetting #1}
+\currentspaceleft=\pagegoal
+\ifcolumnable
+\typesetsimple
+\else
+\typesetcolumnable
+\fi
+}
+%
+% Simple case -- song cant be broken up into columns
+%
+\def\typesetsimple{
+\typesetsimplesoft
+\ifsuccess\else\openleft\typesetsimpleforce\fi
+}
+%
+% Try to typeset a song, but fail if it would not fit on the current double page
+%
+\def\typesetsimplesoft{
+\setbox3=\copy1
+\currentspaceleft=\pagegoal
+\advance\spaceleft by -\pagetotal
+\advance\spaceleft by -\ht2
+\setbox4=\vsplit 3 to \spaceleft
+\ifdim \ht3 = 0pt
+\successtrue
+\box2
+\box4
+\else
+\ifdim \ht3 > \vsize
+\else
+\ifleftpage
+\successtrue
+\box2
+\box4
+\vfill\eject
+\box3
+\fi
+\fi
+}
+%
+% Typeset song no matter what
+%
+\def\typesetsimpleforce{
+\setbox3=\copy1
+\currentspaceleft=\pagegoal
+\advance\spaceleft by -\pagetotal
+\advance\spaceleft by -\ht2
+\box2
+\vsplit 3 to \spaceleft
+\def\step{
+\ifdim\ht3>0pt
+\vfill\eject
+\vsplit 3 to \pagegoal
+\step
+\fi
+}
+\step
+}
+%
+% More complicated case -- song can be broken into columns
+%
+% Assumes #1 is a vbox. Turn it into two columned hbox, halved as precisely as possible, with preference for the
+% first column to be larger than the second
+%
+\def\halve#1{
+\setbox10 = \copy #1\relax
+\setbox11 = \vbox{\unvbox{\vsplit 10 to 0.5\ht10}}
+\setbox12 = \hbox to \hsize{\hbox{\box11}\hfil\hbox{\box10}}
+\setbox10 = \copy #1\relax
+\setbox11 = \vbox{\unvbox{\vsplit 10 to 0.5\ht10}\vskip\blockseparator\unvbox{\vsplit 10 to 0pt}}
+\setbox11 = \hbox to \hsize{\hbox{\box11}\hfil\hbox{\box10}}
+\ifdim\ht11 > \ht12
+\setbox#1=\box12
+\else
+\setbox#1=\box11
+\fi
+}
+%
+\def\split#1#2#3{
+\setbox#2 = \hbox to \hsize{\hbox{\vsplit #1 to #3}\hfil\hbox{\vsplit #1 to #3}}
+}
+%
+\def\typesetcolumnable{
+\typesetcolumnablesoft
+\ifsuccess\else\openleft\typesetcolumnableforce\fi
+}
+%
+\def\typesetcolumnablesoft{
+\setbox3=\copy1
+\currentspaceleft=\pagegoal
+\advance\spaceleft by -\pagetotal
+\advance\spaceleft by -\ht2
+\halve{3}
+\ifdim \ht3 < \currentspaceleft
+\successtrue
+\box2
+\box3
+\else
+\ifleftpage
+\split{3}{4}{\currentspaceleft}
+\halve{3}
+\ifdim \ht3 > \pagegoal
+\else
+\successtrue
+\box2
+\box4
+\vfil
+\eject
+\box3
+\fi
+\fi
+}
+%
+\def\typesetcolumnableforce{
+\setbox3=\copy1
+\currentspaceleft=\pagegoal
+\advance\spaceleft by -\pagetotal
+\advance\spaceleft by -\ht2
+\box2
+\split{3}{4}{\spaceleft}
+\box4
+\vfil
+\eject
+\def\step{
+\ifdim\ht3>0pt
+\vfill\eject
+\setbox4=\copy3
+\halve{4}
+\ifdim \ht4>\pagegoal
+\split{3}{4}{\spaceleft}
+\box4
+\else
+\box4
+\setbox3=\hbox{}
+\fi
+\step
+\fi
+}
+\step
+}
