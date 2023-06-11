@@ -40,6 +40,7 @@
 \newdimen\tempdimen%
 \newdimen\currentlyricskip%
 \newdimen\currentspaceleft
+\newdimen\targetheight
 %
 \newif\ifleftpage
 \newif\ifstartpage
@@ -119,7 +120,7 @@
 \successfalse
 \advance\spaceleft by -\pagetotal
 \ifdim\currentspaceleft < \minnextsongspace
-\vfill\eject
+\vfil\eject
 \fi
 \ifodd\pageno\leftpagetrue\else\leftpagefalse\fi
 \ifdim\pagetotal=0pt\startpagetrue\else\startpagefalse\fi
@@ -132,8 +133,8 @@
 % Macro that ensues you are on the top of an even numbered page
 %
 \def\openleft{
-\vfill\eject
-\ifodd\pageno\hbox{}\vfill\eject\fi
+\vfil\eject
+\ifodd\pageno\hbox{}\vfil\eject\fi
 }
 %
 % Typeset -- wrapper method that calls correct submethod
@@ -174,7 +175,7 @@
 \successtrue
 \box2
 \box4
-\vfill\eject
+\vfil\eject
 \box3
 \fi
 \fi
@@ -191,7 +192,7 @@
 \vsplit 3 to \spaceleft
 \def\step{
 \ifdim\ht3>0pt
-\vfill\eject
+\vfil\eject
 \vsplit 3 to \pagegoal
 \step
 \fi
@@ -207,10 +208,10 @@
 \def\halve#1{
 \setbox10 = \copy #1\relax
 \setbox11 = \vbox{\unvbox{\vsplit 10 to 0.5\ht10}}
-\setbox12 = \hbox to \hsize{\hbox{\box11}\hfil\hbox{\box10}}
+\setcolumns{\box11}{\box10}{12}
 \setbox10 = \copy #1\relax
 \setbox11 = \vbox{\unvbox{\vsplit 10 to 0.5\ht10}\vskip\blockseparator\unvbox{\vsplit 10 to 0pt}}
-\setbox11 = \hbox to \hsize{\hbox{\box11}\hfil\hbox{\box10}}
+\setcolumns{\box11}{\box10}{11}
 \ifdim\ht11 > \ht12
 \setbox#1=\box12
 \else
@@ -219,7 +220,18 @@
 }
 %
 \def\split#1#2#3{
-\setbox#2 = \hbox to \hsize{\hbox{\vsplit #1 to #3}\hfil\hbox{\vsplit #1 to #3}}
+\setcolumns{\vsplit #1 to #3}{\vsplit #1 to #3}{#2}
+}
+%
+\def\setcolumns#1#2#3{
+\setbox20=#1
+\setbox21=#2
+\ifdim\ht20>ht21
+\targetheight=\ht20
+\else
+\targetheight=\ht21
+\fi
+\setbox#3=\hbox to \hsize{\hbox{\vbox to \targetheight{\box20\vfil}}\hfil\hbox{\vbox to \targetheight{\box21\vfil}}}
 }
 %
 \def\typesetcolumnable{
@@ -265,7 +277,7 @@
 \eject
 \def\step{
 \ifdim\ht3>0pt
-\vfill\eject
+\vfil\eject
 \setbox4=\copy3
 \halve{4}
 \ifdim \ht4>\pagegoal
