@@ -41,6 +41,7 @@
 \newdimen\currentlyricskip%
 \newdimen\currentspaceleft
 \newdimen\targetheight
+\newdimen\realvsize
 %
 \newif\ifleftpage
 \newif\ifstartpage
@@ -112,21 +113,6 @@
 \font\authorfont=\fontname\tenrm\space scaled 700
 \def\numberstrut{\hbox{\vrule height 20pt width 0pt depth 3.5pt}}
 \def\songheader#1#2{\hbox{\vbox{\hrule\hbox to 1.5cm{\vrule\hss\numberstrut\numberfont\the\songcount\vrule}\hrule}\hskip 0.5em\hbox{\vbox{\hbox{\namefont #1}\hbox{\authorfont #2}}}}\vskip\blockseparator\advance\songcount by 1}
-\catcode`\#=11
-%
-\long\def\fullsong{#1}{#2}{#3}{
-\setbox1=\vbox{\song{#3}}
-\setbox2=\vbox{\songheader{#1}{#2}}
-\successfalse
-\advance\spaceleft by -\pagetotal
-\ifdim\currentspaceleft < \minnextsongspace
-\vfil\eject
-\fi
-\ifodd\pageno\leftpagetrue\else\leftpagefalse\fi
-\ifdim\pagetotal=0pt\startpagetrue\else\startpagefalse\fi
-\ifdim\wd1>\colwidth\columnablefalse\else\columnabletrue\fi
-\typesetsong{#1}
-}
 %
 % Correct handling of page breaks
 %
@@ -141,11 +127,11 @@
 %
 \def\typesetsong#1{
 \message{typesetting #1}
-\currentspaceleft=\pagegoal
+\currentspaceleft=\realvsize
 \ifcolumnable
-\typesetsimple
-\else
 \typesetcolumnable
+\else
+\typesetsimple
 \fi
 }
 %
@@ -160,16 +146,16 @@
 %
 \def\typesetsimplesoft{
 \setbox3=\copy1
-\currentspaceleft=\pagegoal
-\advance\spaceleft by -\pagetotal
-\advance\spaceleft by -\ht2
-\setbox4=\vsplit 3 to \spaceleft
+\currentspaceleft=\realvsize
+\advance\currentspaceleft by -\pagetotal
+\advance\currentspaceleft by -\ht2
+\setbox4=\vsplit 3 to \currentspaceleft
 \ifdim \ht3 = 0pt
 \successtrue
 \box2
 \box4
 \else
-\ifdim \ht3 > \vsize
+\ifdim \ht3 > \realvsize
 \else
 \ifleftpage
 \successtrue
@@ -184,16 +170,18 @@
 % Typeset song no matter what
 %
 \def\typesetsimpleforce{
+\message{Using force}
 \setbox3=\copy1
-\currentspaceleft=\pagegoal
-\advance\spaceleft by -\pagetotal
-\advance\spaceleft by -\ht2
+\currentspaceleft=\realvsize
+\advance\currentspaceleft by -\pagetotal
+\advance\currentspaceleft by -\ht2
 \box2
-\vsplit 3 to \spaceleft
+\vsplit 3 to \currentspaceleft
 \def\step{
 \ifdim\ht3>0pt
 \vfil\eject
-\vsplit 3 to \pagegoal
+\setbox4=\vsplit 3 to \realvsize
+\vbox{\unvbox4}
 \step
 \fi
 }
@@ -207,10 +195,13 @@
 %
 \def\halve#1{
 \setbox10 = \copy #1\relax
-\setbox11 = \vbox{\unvbox{\vsplit 10 to 0.5\ht10}}
+\setbox11 =\vsplit 10 to 0.5\ht10\relax
+\setbox11 = \vbox{\unvbox 11}
 \setcolumns{\box11}{\box10}{12}
 \setbox10 = \copy #1\relax
-\setbox11 = \vbox{\unvbox{\vsplit 10 to 0.5\ht10}\vskip\blockseparator\unvbox{\vsplit 10 to 0pt}}
+\setbox11 =\vsplit 10 to 0.5\ht10\relax
+\setbox13 = \vsplit 10 to 0pt
+\setbox11 = \vbox{\unvbox11\vskip\blockseparator\unvbox13}
 \setcolumns{\box11}{\box10}{11}
 \ifdim\ht11 > \ht12
 \setbox#1=\box12
@@ -226,7 +217,7 @@
 \def\setcolumns#1#2#3{
 \setbox20=#1
 \setbox21=#2
-\ifdim\ht20>ht21
+\ifdim\ht20>\ht21
 \targetheight=\ht20
 \else
 \targetheight=\ht21
@@ -241,9 +232,9 @@
 %
 \def\typesetcolumnablesoft{
 \setbox3=\copy1
-\currentspaceleft=\pagegoal
-\advance\spaceleft by -\pagetotal
-\advance\spaceleft by -\ht2
+\currentspaceleft=\realvsize
+\advance\currentspaceleft by -\pagetotal
+\advance\currentspaceleft by -\ht2
 \halve{3}
 \ifdim \ht3 < \currentspaceleft
 \successtrue
@@ -253,7 +244,7 @@
 \ifleftpage
 \split{3}{4}{\currentspaceleft}
 \halve{3}
-\ifdim \ht3 > \pagegoal
+\ifdim \ht3 > \realvsize
 \else
 \successtrue
 \box2
@@ -266,12 +257,13 @@
 }
 %
 \def\typesetcolumnableforce{
+\message{Using force}
 \setbox3=\copy1
-\currentspaceleft=\pagegoal
-\advance\spaceleft by -\pagetotal
-\advance\spaceleft by -\ht2
+\currentspaceleft=\realvsize
+\advance\currentspaceleft by -\pagetotal
+\advance\currentspaceleft by -\ht2
 \box2
-\split{3}{4}{\spaceleft}
+\split{3}{4}{\currentspaceleft}
 \box4
 \vfil
 \eject
@@ -280,8 +272,8 @@
 \vfil\eject
 \setbox4=\copy3
 \halve{4}
-\ifdim \ht4>\pagegoal
-\split{3}{4}{\spaceleft}
+\ifdim \ht4>\realvsize
+\split{3}{4}{\currentspaceleft}
 \box4
 \else
 \box4
@@ -292,3 +284,22 @@
 }
 \step
 }
+%
+\long\def\fullsong#1#2#3{
+\setbox1=\vbox{\song{#3}}
+\setbox2=\vbox{\songheader{#1}{#2}}
+\successfalse
+\advance\currentspaceleft by -\pagetotal
+\ifdim\currentspaceleft < \minnextsongspace
+\vfil\eject
+\fi
+\ifodd\pageno\leftpagetrue\else\leftpagefalse\fi
+\ifdim\pagetotal=0pt\startpagetrue\else\startpagefalse\fi
+\ifdim\wd1>\colwidth\columnablefalse\else\columnabletrue\fi
+\typesetsong{#1}
+}
+\catcode`\#=11
+%
+% we will calculate page breaks manually -- set vsize to a large number
+\realvsize=\vsize
+\multiply\vsize by 2

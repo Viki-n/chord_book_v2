@@ -10,7 +10,7 @@ def convert(source, target):
     author = next(lines).strip()
 
     with open(target, 'w') as f:
-        f.write(f'\\songheader{{{name}}}{{{author}}}\n\\song{{')
+        f.write(f'\\fullsong{{{name}}}{{{author}}}{{')
 
         verse = False
         while True:
