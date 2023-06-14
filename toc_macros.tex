@@ -1,0 +1,37 @@
+% link macros
+%
+% source https://www.cstug.cz/bulletin/pdf/pdftex-cook-bull.pdf
+%
+\def\link#1#2{
+\pdfstartlink
+height 10 pt depth 4pt
+goto num #1%
+#2
+\pdfendlink
+}
+\def\anchor#1{\pdfdest num #1 xyz}
+
+
+% toc
+\font\title=\fontname\tenbf\space scaled 2500
+\newcount\i
+\i=1
+\long\def\fullsong#1#2#3{
+\hbox to \hsize{\hskip 1em\relax\link{\the\i}{#1}\leaders\hbox{.}\hfil\the\i\hskip 1em}
+\advance\i by 1
+}
+\def\toc#1{
+\vbox{
+\vskip 1cm
+{\noindent\title Obsah}
+
+\vskip 1cm
+\noindent Vzhledem k tomu, že ve zpěvníku nejsou čísla stránek, klasický obsah by stejně nebyl příliš užitečný. Proto
+je zde uvedeno pouze pořadí písniček ve zpěvníku.
+\vskip 1cm
+}
+
+\input #1
+
+\vfil\eject
+}
