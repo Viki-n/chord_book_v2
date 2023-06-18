@@ -31,39 +31,45 @@ def convert(source, target):
                 any_lyrics = False
                 in_lyrics = False
                 last_space = True
-                depth=0
+                overtext = 0
+                chord = False
                 f.write(r'\chordline{')
                 for character in line:
                     if character in '<[':
-                        depth += 1
-                        if depth == 1:
-                            if in_lyrics:
-                                f.write(r'}')
-                                in_lyrics = False
-                            f.write(r'\chord{')
-                            if character == '<':
-                                f.write(r'{\rm ')
+                        assert not overtext, f'extra "{character}" on line {line}'
+                        overtext = True
+                        if in_lyrics:
+                            f.write(r'}')
+                            in_lyrics = False
+                        f.write(r'\chord{')
+                        if character == '<':
+                            f.write(r'{\rm ')
+                            chord = False
+                        else:
+                            chord = True
                     elif character == ']':
-                        depth -= 1
-                        if depth == 0:
-                            f.write('}')
+                        assert overtext and chord,  f'extra "]" on line {line}'
+                        f.write('}')
+                        chord = False
+                        overtext = False
                     elif character == '>':
-                        depth -= 1
-                        if depth == 0:
-                            f.write('}}')
+                        assert overtext and not chord,  f'extra "]" on line {line}'
+                        f.write('}}')
+                        overtext = False
+                    elif character == 'b' and chord:
+                        f.write(r'$\flat$')
+                    elif character == ' ' and not overtext and not any_lyrics:
+                        any_lyrics = True
+                        f.write(r'\lyricsspace{\hskip\startskip}')
                     else:
-                        if character == ' ' and not depth and not any_lyrics:
-                            any_lyrics = True
-                            f.write(r'\lyricsspace{\hskip\startskip}')
-                            continue
-                        if not depth and not in_lyrics:
+                        if not overtext and not in_lyrics:
                             in_lyrics = True
                             any_lyrics = True
                             if last_space:
                                 f.write(r'\lyricsspace{')
                             else:
                                 f.write(r'\lyrics{')
-                        if not depth:
+                        if not overtext:
                             last_space = character == ' '
                         f.write(character)
                 if in_lyrics:
