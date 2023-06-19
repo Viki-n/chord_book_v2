@@ -49,4 +49,68 @@ def compact_line(line, chord_line):
             line.append(next(pieces))
             line.append(next(chords))
     except StopIteration:
-        return ''.join(line)
+        return ''.join(line).strip()
+
+
+def uncompact(song):
+
+    song = song.split('\n')
+    new_song = []
+    last_pure_chords = False
+
+    for line in song:
+        if '[' in line or '<' in line:
+            chord_line = ''
+            lyrics_line = ''
+            current_chord = ''
+
+            overtext = False
+            chord = False
+            has_overtext = False
+            has_lyrics = False
+
+            for character in line:
+                if character == '[' and (len(chord_line) <= len(lyrics_line) or not has_lyrics):
+                    if len(chord_line) > len(lyrics_line):
+                        lyrics_line += ' ' * (len(chord_line) - len(lyrics_line))
+                    chord_line += ' ' * (len(lyrics_line) - len(chord_line))
+                    chord = True
+                elif character == '<' and (len(chord_line) <= len(lyrics_line) or not has_lyrics):
+                    if len(chord_line) > len(lyrics_line):
+                        lyrics_line += ' ' * (len(chord_line) - len(lyrics_line))
+                    chord_line += ' ' * (len(lyrics_line) - len(chord_line))
+                    overtext = True
+                    has_overtext = True
+                elif character == ']' and chord:
+                    chord = False
+                    chord_line += ' '
+                elif character == '>' and overtext:
+                    overtext = False
+                    chord_line += ' '
+                elif chord:
+                    chord_line += character
+                    current_chord += character
+                elif overtext:
+                    chord_line += character
+                else:
+                    lyrics_line += character
+                    if character != ' ':
+                        has_lyrics = True
+
+            if has_overtext:
+                chord_line = '! ' + chord_line
+                lyrics_line = '  ' + lyrics_line
+
+            new_song.append(chord_line)
+            if lyrics_line.strip():
+                last_pure_chords = False
+                new_song.append(lyrics_line)
+            else:
+                last_pure_chords = True
+        else:
+            if last_pure_chords:
+                new_song.append('')
+            new_song.append(line)
+            last_pure_chords = False
+
+    return '\n'.join(new_song)
