@@ -6,7 +6,7 @@ CHORD_REGEX = re.compile(CHORD_REGEX)
 
 
 def is_chord_line(line):
-    return line.startswith('!') or (line and all(CHORD_REGEX.fullmatch(word) for word in line.strip))
+    return line.startswith('!') or (line and all(CHORD_REGEX.fullmatch(word) for word in line.split()))
 
 
 def compact(song):
@@ -75,6 +75,7 @@ def uncompact(song):
                         lyrics_line += ' ' * (len(chord_line) - len(lyrics_line))
                     chord_line += ' ' * (len(lyrics_line) - len(chord_line))
                     chord = True
+                    current_chord = ''
                 elif character == '<' and (len(chord_line) <= len(lyrics_line) or not has_lyrics):
                     if len(chord_line) > len(lyrics_line):
                         lyrics_line += ' ' * (len(chord_line) - len(lyrics_line))
@@ -84,6 +85,8 @@ def uncompact(song):
                 elif character == ']' and chord:
                     chord = False
                     chord_line += ' '
+                    if not CHORD_REGEX.fullmatch(current_chord):
+                        print(f'Warning: unrecognized chord {current_chord}')
                 elif character == '>' and overtext:
                     overtext = False
                     chord_line += ' '

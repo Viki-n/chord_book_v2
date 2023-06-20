@@ -1,15 +1,17 @@
 import re
-from sys import argv
 
 
 def convert(source, target):
-    with open(source) as f:
-        lines = iter(f.readlines())
+    if '\n' in source:
+        lines = iter(source.split('\n'))
+    else:
+        with open(source, encoding='utf8') as f:
+            lines = iter(f.readlines())
 
     name = next(lines).strip()
     author = next(lines).strip()
 
-    with open(target, 'w') as f:
+    with open(target, 'w', encoding='utf8') as f:
         f.write(f'\\fullsong{{{name}}}{{{author}}}{{')
 
         verse = False
@@ -76,6 +78,8 @@ def convert(source, target):
                     f.write('}')
                 f.write('}\n')
         f.write('}\n')
+
+    return name
 
 
 if __name__ == '__main__':
