@@ -1,0 +1,54 @@
+Věta o pěti barvách 
+Honza K?ra, Petr Kučera, Tomáš Valla
+
+
+   F                   C 
+Na každý graf, co rovinný jest,
+    F               C 
+pět barev nám postačí.
+F     Dmi      G7   C 
+Důkaz máme dobrá to zvěst,
+F C      F C    F    C 
+Robert s Petrem naznačí.
+F     Dmi      G7   C 
+Důkaz máme dobrá to zvěst,
+Bb F    F Dmi C    F 
+Honza s Tomem naznačí.
+
+Indukce se při tom hodí
+podle počtu vrcholů.
+Máme-li jich nejvýše pět
+splníme část úkolu.
+
+Vrcholů je nyní mnoho,
+stupeň vé buď nejmenší,
+zbavíme se vrcholu toho
+indukce zbytek vyřeší.
+
+Málo barev na sousedech
+vé obarvit umožní,
+Euler říká stupeň má pět,
+to nám velmi dobře zní.
+
+Dva protější uzly spojme,
+á modrý, bé červený,
+další dva si označíme,
+cé žlutý, dé zelený.
+
+Ze dvou cest jedna nevede,
+platí k naší radosti,
+ať je to ta mezi cé, dé,
+bez újmy na obecnosti.
+
+V zelenožluté podgraf vezmem,
+souvislý a s uzlem dé,
+zaměnit v něm barvy můžem,
+vé už pak obarvit jde.
+
+Všechno správně obarveno,
+nepřišli jsme k úrazu.
+Laik se diví, znalec žasne,
+to je konec důkazu.
+
+Laik se diví, znalec žasne,
+to je konec ach důkazu
