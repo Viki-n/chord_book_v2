@@ -4,6 +4,16 @@ import compactor
 import formatter
 
 
+translit_dict = dict(zip('ěščřžýáíéťóďň', 'escrzyaietodn'))
+
+
+def translit(s):
+    s = s.lower()
+    for k, v in translit_dict.items():
+        s = s.replace(k, v)
+    return s
+
+
 def make_book():
 
     songs = {}
@@ -25,7 +35,7 @@ def make_book():
         songs[name] = out_path
 
     with open('./songs.tex', 'w', encoding='utf8') as f:
-        for song in sorted(songs):
+        for song in sorted(songs, key=translit):
             f.write(f'\\input {songs[song]}\n')
 
 

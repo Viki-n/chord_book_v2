@@ -22,6 +22,8 @@ def convert(source, target):
                 if verse:
                     f.write('}\n')
                 break
+            if line.startswith('#'):
+                continue
             line = re.sub(r'] *\[', '][', line)
             if not line and verse:
                 f.write('}\n')

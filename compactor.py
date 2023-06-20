@@ -1,12 +1,12 @@
 import re
 
-CHORD_REGEX = '[A-H](#|b)?(maj|mi?|dim|sus|add|[0-9]){0,4}'
+CHORD_REGEX = '[A-H](#|b)?(maj|mi?|dim|sus|add|\+|-|[0-9]){0,4}'
 CHORD_REGEX = fr'\(?{CHORD_REGEX}(/{CHORD_REGEX})?\)?'
 CHORD_REGEX = re.compile(CHORD_REGEX)
 
 
 def is_chord_line(line):
-    return line.startswith('!') or (line and all(CHORD_REGEX.fullmatch(word) for word in line.split()))
+    return line.startswith('!') or (line.strip() and all(CHORD_REGEX.fullmatch(word) for word in line.split()))
 
 
 def compact(song):
