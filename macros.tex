@@ -295,6 +295,7 @@
 \setbox1=\vbox{\song{#3}}
 \setbox2=\vbox{\songheader{#1}{#2}}
 \successfalse
+\currentspaceleft = \realvsize
 \advance\currentspaceleft by -\pagetotal
 \ifdim\currentspaceleft < \minnextsongspace
 \vfil\eject
@@ -302,10 +303,11 @@
 \ifodd\pageno\leftpagefalse\else\leftpagetrue\fi
 \ifdim\wd1>\colwidth\columnablefalse\message{Not columnable -- \the\wd1 > \the\colwidth}\else\columnabletrue\fi
 \typesetsong{#1}
-\vskip 2\blockseparator
+\vskip 2\blockseparator\par
 }
 \catcode`\#=11
 %
 % we will calculate page breaks manually -- set vsize to a large number
 \realvsize=\vsize
 \multiply\vsize by 2
+\parskip = 0pt
