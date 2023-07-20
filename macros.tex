@@ -51,7 +51,7 @@
 %
 % macros for chords
 \def\measure#1{{\setbox0=\hbox{#1}\global\res=\wd0}}%
-\def\chordline#1{{%
+\def\part#1{{%
 %
 \def\chordstrut{\hbox{\vrule height 10pt width 0pt depth 3.5pt}}
 \def\chordformat##1{\hbox{\chordstrut\bf ##1}}%
@@ -94,6 +94,20 @@
 \vskip -6pt
 \fi
 }}%
+\def\chordline#1{
+\def\contents{}
+\let\empty\contents
+\def\piece##1{
+\measure{\vbox{\part{\contents ##1}}}
+\ifdim\res > \hsize\ifx\contents\empty\else\message{separating: \meaning\contents}\part{\contents}\def\contents{\lyricsspace{\hskip2em\relax}}\fi\fi
+\def\chord{\noexpand\chord}
+\def\lyricsspace{\noexpand\lyricsspace}
+\def\lyrics{\noexpand\lyrics}
+\edef\contents{\contents ##1}
+}
+#1
+\ifx\contents\empty\else\part{\contents}\fi
+}
 %
 % Macros for verses and songs
 %

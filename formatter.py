@@ -37,7 +37,7 @@ def convert(source, target):
                 last_space = True
                 overtext = 0
                 chord = False
-                f.write(r'\chordline{')
+                f.write(r'\chordline{\piece{')
                 for character in line:
                     if character in '<[':
                         assert not overtext, f'extra "{character}" on line {line}'
@@ -62,6 +62,9 @@ def convert(source, target):
                         overtext = False
                     elif character == 'b' and chord:
                         f.write(r'$\flat$')
+                    elif character == '|':
+                        assert not chord
+                        f.write(r'}}\piece{\lyricsspace{')
                     elif character == ' ' and not overtext and not any_lyrics:
                         any_lyrics = True
                         f.write(r'\lyricsspace{\hskip\startskip}')
@@ -78,7 +81,7 @@ def convert(source, target):
                         f.write(character)
                 if in_lyrics:
                     f.write('}')
-                f.write('}\n')
+                f.write('}}\n')
         f.write('}\n')
 
     return name

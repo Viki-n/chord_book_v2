@@ -25,12 +25,17 @@ compactor.py.
 will be typeset above the lyrics (as aligned -- see previous point) but only chords will be typeset in bold
 3) Directly in the lyrics, you can have chords in square brackets and other material that goes above chords
 in pointy brackets (<>)
+4) Directly in the lyrics (not inside of any chord), you can have the pipe (|) character. That is a suggestion
+for a good line break. Note that
+   1) No other line breaks will happen, ever (lyrics may flow out of the right end of the page)
+   2) Line breaks will only happen if the line would not fit within the width of the page otherwise. Line breaks will not occur to allow columned typesetting. 
+   3) Do not forget about whitespace around the pipe. For best results, use one space before pipe and no spaces after it. 
 
 Verses are separated by one or more empty lines (in case the last line of verse has chords
 only (rather than also lyrics), use a minimum of two empty lines).
 
 Any lines (other than first two) prefixed by a hash symbol (#) are considered to be comments and ignored
-This is only done in te secnd phase of processing, so if you have a line of chords
+This is only done in te secnd phase of processing, so if you have a line of chords above a comment
 (as specified in points 1 and 2 above), one of the following two things will happen:
 
  - chords will be inserted into the comment and then ignored thogeher with the comment
@@ -41,7 +46,6 @@ Any plain TeX code that can normally appear in a horizontal list can appear as p
 #### Upcoming additions
 
  - Songs already in the repository are not cleaned up -- that is comming
- - character | inside a line of lyrics will gain a special meaning as a suggestion for a line break, should line breaking be necessary
 
 ### Compiling
 
