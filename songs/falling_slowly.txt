@@ -2,7 +2,7 @@ Falling Slowly
 Glen Hansard and Marketa Irglova
 
 
-Intro: C F Am F F
+! Intro: C F Am F F
 
 C               F 
 I dont know you but I want you
@@ -10,7 +10,7 @@ All the more for that
 Words fall through me and always fool me
 And I cant react
 
-Am          G        F       G             Am 
+Am         G      F        G               Am
 Games that never amount to more than their worth
      G               F 
 Will play themselves out
@@ -25,7 +25,7 @@ F
 You've made it known
 
 Falling slowly, eyes that know me
-And I cant go back
+And I can't go back
 Moods that take me and erase me
 And i'm painted black
 
@@ -34,7 +34,7 @@ It's time that you won
 
 R:
 
-C               G           Am 
+C               G         Am
 Falling slowly, sing your melody
 
 F 

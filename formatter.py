@@ -40,7 +40,7 @@ def convert(source, target):
                 f.write(r'\chordline{\piece{')
                 for character in line:
                     if character in '<[':
-                        assert not overtext, f'extra "{character}" on line {line}'
+                        assert not overtext, f'extra "{character}" on line {line} in {name}'
                         overtext = True
                         if in_lyrics:
                             f.write(r'}')

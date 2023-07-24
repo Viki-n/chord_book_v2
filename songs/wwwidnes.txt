@@ -74,7 +74,8 @@ Auto srazilo v Brně dítě na přechodu
 k životu žádný důvod,
 a ke smrti stovka různých důvodů
 Silnici obsadila policie,
-naposledy promíjela řidičům varovné blikání
+naposledy promíjela
+\hskip 2em řidičům varovné blikání
 proč musí každá sebeblbší
 píseň mít nějaké poslání
 Dívka ze Stříbra zemřela

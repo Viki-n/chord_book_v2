@@ -41,17 +41,20 @@ This is only done in te secnd phase of processing, so if you have a line of chor
  - chords will be inserted into the comment and then ignored thogeher with the comment
  - chords will be inserted into the comment, displacing the initial hash, thus letting the comment appear in the product
 
-Any plain TeX code that can normally appear in a horizontal list can appear as part of both lyrics and chords
-
-#### Upcoming additions
-
- - Songs already in the repository are not cleaned up -- that is comming
+Any plain TeX code that can normally appear in a horizontal list can appear as part of both lyrics and chords. 
+Notable exception to this is defining your own macros with parameters, since the hashtag (#) symbol has been
+stripped of its usual special meaning
 
 ### Compiling
 
  - Run make.py (tested for python 3.9, but 3.7 or above should work)
  - make sure to rewrite contents of titlepage.tex to your liking
  - compile songbook.tex using your favorite pdf plain TeX compiler (pdfcsplain is recommended for usage with czech characters)
+
+### Songs trash
+
+This directory contains songs that I do not know, like and/or want to learn, but which are still at least somewhat
+formatted into compatibility wiht the rest of the book.
 
 ## Further upcoming additions
 
