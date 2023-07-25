@@ -2,7 +2,7 @@ Phantom of the Opera
 Andrew Lloyd Webber (from the Phantom of the Opera)
 
 
-{\it Christine:}
+_Christine:_
 Dmi         Gmi 
 In sleep he sang to me
 C            Dmi 
@@ -24,7 +24,7 @@ Dmi C# C H A# A A#
 D C# C A# Gmi 
 
 
-{\it Phantom:}
+_Phantom:_
 Gmi        Cmi 
 Sing once again with me
 F           Gmi 
@@ -46,19 +46,17 @@ Gmi F# F E D# D D7 Emi
 
 
 
-{\it Christine:}
+_Christine:_
 Emi            Ami 
 Those who have seen your face
 D            Emi 
 Draw back in fear
 Emi      Ami 
 I am the mask you wear
-{\it Phantom:}
+_Phantom:_
 D            Emi 
 It's me they hear
-
-
-{\it Phantom/Christine:}
+_Phantom/Christine:_
                    C 
 Your/My spirit and my/your voice
 D         Emi 

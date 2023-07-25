@@ -2,9 +2,9 @@ Mosty
 Lenka Filipová a Karel Zich
 
 
-{\it On:}
-G 
-Postavím si bezvadný most
+
+      G
+_On:_ Postavím si bezvadný most
       C 
 pevné pilíře a bude jich dost
     Ami 
@@ -17,9 +17,9 @@ Malý je most ale rozhodně náš
 A vyhráva ten kdo se vzdálenost
 překlenout snaží
 
-{\it Ona:}
-    Ami               Hmi 
-R1: Jsem vrámci tvých mostů
+
+             Ami               Hmi
+*R1:* _Ona:_ Jsem v rámci tvých mostů
       C         G 
 Proti lásce imunní
 Emi            Ami 
@@ -27,8 +27,7 @@ Znám pár druhů deště
   A               C 
 a neznám výslunní 
 
-{\it On:}
-Mosty znám už dlouhý čas
+_On:_ Mosty znám už dlouhý čas
 jsou dlouhé i krátké i tenké jak vlas
 ale pomáhají
 když jeden z nás chvíli se vzdálí
@@ -38,28 +37,25 @@ a bez pochyby jsem na tom líp
 než ten kdo pár mostů
 v afektu za sebou spálí
 
-{\it Ona:}
-R1:
+_Ona:_ *R1:*
 
 Mosty znal už dlouhý čas
 jsou dlouhé i krátke i tenké jak vlas
 ale pomáhají
 když jeden z nás chvíli se vzdálí
 
-{\it On:}
-R2: Jsi v rámci mých mostů
+
+*R2:* _On:_ Jsi v rámci mých mostů
 proti lásce imunní
 Znáš pár druhů deště
 teď poznáš výslunní
 
-{\it Ona:}
-Tak se ptám když ty mosty znáš
+_Ona:_ Tak se ptám když ty mosty znáš
 řekni který je cizí a který je náš
 přes ten možná bych šla
 kdybys byl ztracený v dáli
 
-{\it Oba:}
-Mosty znám už dlouhý čas
+_Oba:_ Mosty znám už dlouhý čas
 Jsou dlouhé i krátke i tenké jak vlas
 Ale pomáhájí
 když jeden z nás chvíli se vzdálí

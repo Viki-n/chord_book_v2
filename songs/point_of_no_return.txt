@@ -2,8 +2,8 @@ Point of no return
 Andrew Lloyd Webber (from The Phantom of the Opera)
 
 
-               Gmi Fmi  Fmi  D#mi
-{\it Phantom:} You have come here
+           Gmi Fmi  Fmi  D#mi
+_Phantom:_ You have come here
 Gmi   Fmi          Fmi     D#mi 
 In pursuit of your deepest urge
 A#    Fmi          C#mi            Hmi 
@@ -52,7 +52,7 @@ What warm unspoken secrets will we learn
   C#                F# C7 
 beyond the point of no re[Fmi]turn'
 
-{\it Christine:} You have brought me
+_Christine:_ You have brought me
 To that moment where words run dry
 To that moment where speech disappears
 Into silence
@@ -78,7 +78,7 @@ The sleeping bud burst into bloom'
 When will the flames at last consume us'
 
              Gmi               D7 
-{\it Both:} Past the point of no return,
+_Both:_ Past the point of no return,
 Gmi       G 
 The final threshold
 G7  D# 

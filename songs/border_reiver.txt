@@ -45,7 +45,7 @@ She’s an Albion
          Ami 
 She’s an Albion
 
-{\bf Bridge:}
+*Bridge:*
 Ami G G G Ami G Emi 
 Ami G G Emi Ami G Emi Ami 
 

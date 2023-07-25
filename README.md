@@ -25,7 +25,9 @@ compactor.py.
 will be typeset above the lyrics (as aligned -- see previous point) but only chords will be typeset in bold
 3) Directly in the lyrics, you can have chords in square brackets and other material that goes above chords
 in pointy brackets (<>)
-4) Directly in the lyrics (not inside of any chord), you can have the pipe (|) character. That is a suggestion
+4) Text between stars (*) will be bold, text  between underscores (_) will be in italics. Please keep both entirely 
+   either within a chord or outside of a chord and do not cross them
+5) Directly in the lyrics (not inside of any chord), you can have the pipe (|) character. That is a suggestion
 for a good line break. Note that
    1) No other line breaks will happen, ever (lyrics may flow out of the right end of the page)
    2) Line breaks will only happen if the line would not fit within the width of the page otherwise. Line breaks will not occur to allow columned typesetting. 
