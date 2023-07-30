@@ -34,14 +34,14 @@ A jako bys už věděl
       C       H7           Emi 
 Střež ulitu a chraň tě Manitou
 
-   Emi        C 
-R: Joj, Bože, Bože
+     Emi        C
+*R:* Joj, Bože, Bože
 H7 
 joj, Bože, Bože
 Emi 
 Devla
-C         H7        Emi 
-Sedumkrát mávni perutí
+C        H7        Emi
+Sedmkrát mávni perutí
            C 
 Joj, Bože, Bože
 H7 
@@ -60,7 +60,7 @@ tvoje mladá squaw
 a chraň tě Bůh
 a taky svatej Duch
 
-R:
+*R:*
 
 Tak běž
 ne, neděláš to těžší
@@ -70,10 +70,10 @@ A z planých růží keř
 co obrost babylónskou věž
 teď okusuje, věř, jen divá zvěř
 
-R:
+*R:*
 
-       Ami    Emi 
-R2: Vajdem vajdem 
+         Ami    Emi
+*R2:* Vajdem vajdem
    C      Emi    H7 
 Vajdem vajdem vajdem 
    Ami    Emi 
@@ -90,6 +90,6 @@ výstřel poslední
 Tvůj Bůh je tu
 A taky Manitou
 
-R: 2x
+*R:* 2x
 
-R2
+*R2:*

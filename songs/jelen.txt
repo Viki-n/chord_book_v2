@@ -17,8 +17,8 @@ C              G
  moje srdce ztratit.
 
 
-   Dmi                C   F 
-R: Zabil jsem v lese  jelena.
+     Dmi                C   F
+*R:* Zabil jsem v lese  jelena.
                C      Dmi 
 Bez nenávisti, bez jména.
                    C    F 
@@ -35,7 +35,7 @@ I když roky plynou.
 Že vidím tvůj odraz,
 dole pod hladinou.
 
-R:
+*R:*
 
 Na jaře se vrací,
 listí od podzima.
@@ -46,10 +46,10 @@ tečka za příběhem.
 Kdo pozná, čí kosti,
 zapadaly sněhem.
 
-R: +HEJ!
+*R:* +HEJ!
 
-Emi               D   G 
-Zabil jsem v lese jelena.
+     Emi               D   G
+*R:* Zabil jsem v lese jelena.
                D      Emi 
 Bez nenávisti, bez jména.
                    D    G 

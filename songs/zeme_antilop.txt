@@ -10,8 +10,8 @@ Emi       D     Ami7    Emi     D    Ami7
 samoten v městě šamanů, do ulic padá déšť,
 Emi      D        Ami7         C        H 
 a ženy v botách z klokanů, v hotelu Budapešť.
-         C        D           Hmi7    Emi 
-R: Žádný prachy nemám, jen co přelezu zeď,
+           C        D           Hmi7    Emi
+*R:* Žádný prachy nemám, jen co přelezu zeď,
     C         D      Hmi    Emi 
 tak možná, že chytím dobrej stop,
       C    D      Hmi7     Emi 
@@ -24,4 +24,4 @@ vyzvání světu na poplach na uších Emilů,
 podivná doba uhání, za okny limuzín,
 a jako na drátech havrani, tady trčet nemusím.
 
-R:
+*R:*

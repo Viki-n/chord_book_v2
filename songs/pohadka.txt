@@ -43,8 +43,8 @@ rozhrnul oponu z máminejch kytek,
 pěkně se usmál a pěkně se podíval
 a pak mi potichu do ucha zazpíval:
 
-   G           D 
-R: Dej mi ruku svou,
+     G           D
+*R:* Dej mi ruku svou,
          Emi         Hmi/D 
 studenou od okenních skel,
            C         Hmi/D 
@@ -72,4 +72,4 @@ z máminejch kytek,
 pěkně se usmál a pěkně se podíval
 a pak mi potichu do ucha zazpíval:
 
-R: 2x
+*R:* 2x

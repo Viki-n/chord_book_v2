@@ -23,8 +23,8 @@ a když tě bolí srdce,
                   C 
 není kam si dojít pro instrukce
 
-             F 
-R:/:Vé vé vé idnes,
+                F
+*R:* /:Vé vé vé idnes,
     Ami 
 dvaadvacátého května dva tisíce devět
       A#         C 
@@ -45,7 +45,7 @@ se mi z počítače ztratily
 s nejnebezpečnějšími silnicemi
 blbě je mi, blbě je mi
 
-R:
+*R:*
 
 Nahý stopař z Ostravy čelí
 za své řádění třem obviněním
@@ -64,7 +64,7 @@ tvrdí australská genetička
 kdo vymyslel tak hrozný obraz,
 že někomu zhasla svíčka
 
-R:
+*R:*
 
 Záchranáři našli v Táboře
 opuštěné batole
@@ -83,4 +83,4 @@ na následky meningokokové infekce
 vše je to do prdele jenom
 záležitost boží protekce
 
-R:
+*R:*

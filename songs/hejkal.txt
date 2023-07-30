@@ -18,8 +18,9 @@ Dmi         Ami    Dmi           Ami
 strašidelný vytí a skřeky chraplavý,
     F                         E Ami 
 tak to je hejkal, na to vemte jed.
-         C    F    C 
-R: U nás hej, hej, hejkal straší v lese,
+
+           C    F    C
+*R:* U nás hej, hej, hejkal straší v lese,
                              D7          G 
 jen ten, kdo něco snese, tam může v noci jít,
      C    F    C 
@@ -39,4 +40,4 @@ a děs a hrůza v hlase, jó, to mu zůstane,
 až koktavě bude povídat, že:
 
        F               C         G            C 
-R: + neboť za boudou v lese zase hejkal začal výt, hej!
+*R:* + neboť za boudou v lese zase hejkal začal výt, hej!

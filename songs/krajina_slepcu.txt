@@ -19,8 +19,8 @@ a sýr na polích a sudy vína v záhonech,
 tak jásej, hraj, křepči ve tmě jako pán,
 už ráno dojdem tam, kde je ráj.
 
-   Dmi           Ami 
-R: Zástupy jdou, slepců najde se vždy dost 
+     Dmi           Ami
+*R:* Zástupy jdou, slepců najde se vždy dost 
   C        G          Ami 
 a dav chce své vidiny mít,
 Dmi                       Ami 
@@ -35,4 +35,4 @@ důvěru měj, tvůj vůdce, předák, pán, guru
 sám nejlíp ví, kde jsou buchty ve větvích
 pak jehňat výkřik a zlý noci smích.
 
-R:
+*R:*

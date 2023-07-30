@@ -21,8 +21,8 @@ Viděl jsem ji včera máchat
 Ami    Emi 
 Dole u vče[Ami]lína
 
-   Ami 
-R: Dole dole dole dole
+     Ami
+*R:* Dole dole dole dole
 C 
 Dole dole dole
 G 
@@ -38,7 +38,6 @@ Hej dole dole dole
           Ami 
 Dole u včelína
 
-(mezihra pred kažkou slokou)
 
 Líčka jako růže máš
 Já tě musím dostat
@@ -49,7 +48,7 @@ Já tě musím dostat
 Nic nepomůže spát
 Skočím třeba do sna
 
-R:
+*R:*
 
 Líčka jako růže máš
 Řeknu panu králi
@@ -60,11 +59,11 @@ Líčka jako růže máš
 Ať přikázat vašim dá
 Aby mi tě dali
 
-R:
+*R:*
 
 Když v poledne radost má
 Slunko hezky hřeje
 Když se na mě podívá
 Dám jí co si přeje
 
-R:
+*R:*

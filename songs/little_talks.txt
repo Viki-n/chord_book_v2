@@ -17,7 +17,7 @@ ship will carry our
 Ami    F       C     G 
 bodies safe to shore 
 
-Ref.: (bez zpěvu)
+*R:* (bez zpěvu)
 Ami
 [F][C][G] Hey!
 Hey!
@@ -34,9 +34,8 @@ Your mind is playing tricks on you my dear.
 ship will carry our 
 bodies safe to shore Hey!
 
-Ref.
-      Ami         F      C    G 
-Don't listen to a word I say, Hey!
+           Ami         F      C    G
+*R:* Don't listen to a word I say, Hey!
     Ami         F         C     G 
 The screams all sound the same. Hey!
                   Ami       F 
@@ -53,17 +52,11 @@ Just let me go, we'll meet again soon.
 Now wait, wait, wait for me, please hang around
 I'll see you when I fall asleep. Hey!
 
-Ref. (2x)
-Don't listen to a word I say, Hey!
-The screams all sound the same. Hey!
-'Cause though the truth may vary this
-ship will carry our 
-bodies safe to shore 
+*R:* x2
 
-(2x)
-'Cause though the truth may vary this
+/: 'Cause though the truth may vary this
 ship will carry our 
-bodies safe to shore
+bodies safe to shore:/
 
 
 

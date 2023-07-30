@@ -13,8 +13,8 @@ máme tam asi kiks,
 A          E        A 
 nebo přemýšlíme koleny...
 
-   A 
-R: Ruty šuty intregrál per partes,
+     A
+*R:* Ruty šuty intregrál per partes,
                      E 
 ruty šuty substituce má...
 A          A7 
@@ -42,7 +42,7 @@ nějak nám to vázne,
 už je mi to jasné,
 nejde zintegrovat pacholek...
 
-R:
+*R:*
 
 V integrálu Eulerovo číslo,
 naštěstí můžeme použít hack,
@@ -50,7 +50,7 @@ je tam é na ikstou,
 rovnost máme jistou,
 dostáváme stejný výsledek.
 
-R:
+*R:*
 
 Ouvej funkce goniometrická,
 nevím jaký použít fígl tam,
@@ -58,7 +58,7 @@ z kosinu je sinus,
 obráceně s mínus,
 jak se v tomhle jenom vyznat mám?!
 
-R:
+*R:*
 
 Když jsem uviděl výsledek tak mi
 čelist málem vypadla z pantu,
@@ -66,7 +66,7 @@ Když jsem uviděl výsledek tak mi
 tak jsem to pořešil,
 že jsem tam jen připsal konstantu!
 
-R:
+*R:*
 
 Potřebuji propočítat plochu,
 nevím však jak to udělat mám,
@@ -74,7 +74,7 @@ krkem mi to leze,
 přidal jsem tam meze,
 dolní od horní pak odčítám.
 
-Ruty šuty aby byla změna,
+*R:* Ruty šuty aby byla změna,
 ruty šuty derivace má...
 derivujem dle iks,
 máme tam asi kiks,

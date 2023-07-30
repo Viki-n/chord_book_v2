@@ -9,9 +9,8 @@ to je pekné mesto
 a v tej Heľpe a v tej Heľpe 
 švárnych chlapcov je sto
 
-R:
-F           C 
-Koho je sto koho je sto
+     F           C
+*R:* Koho je sto koho je sto
 G            C E
 nie po mojej vôli
 Am     D      Ami    D 
@@ -24,3 +23,5 @@ Za Janíčkom za Palíčkom krok by nespravila
 za Ďuríčkom za Mišíčkom Dunaj preskočila
 Dunaj Dunaj Dunaj Dunaj aj to širé pole
 ľen za jedným ľen za jedným počešenie moje.
+
+*R:*

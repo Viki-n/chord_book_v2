@@ -16,8 +16,8 @@ naše písně spíš kopnou než pohladí,
 nakopnou zadnice
 ctihodných měšťanů z radnice.
 
-   G           Ami 
-R: Hop hej, je veselo,
+     G           Ami
+*R:* Hop hej, je veselo,
     F            G 
 pan kníže pozval kejklíře,
 G           Ami 
@@ -39,7 +39,7 @@ A doufáme, že lidi pochopí,
 že hnijou zaživa,
 když brečí v hospodě u piva.
 
-R:
+*R:*
 
 Ale jako bys lil vodu přes cedník,
 je z tebe nakonec mučedník,
@@ -53,7 +53,7 @@ ale příliš si otvíral papulu.
 Kdo to je tam u kůlu,
 borec, za nás si otvíral papulu.
 
-R:
+*R:*
 
 Od hradu ke hradu putujem,
 zpíváme a holky muchlujem.

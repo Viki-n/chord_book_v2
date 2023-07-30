@@ -16,16 +16,14 @@ Vlastně se nedá ani nikam uprchnout
 /:Tabák je z jehličí a na přežití chleba
 a nemá smysl řekou až na moře plout:/
 
-R:
-F#mi 
-Jenisej, srdce mi krvácí,
+     F#mi
+*R:* Jenisej, srdce mi krvácí,
         Hmi               F#mi 
 má řeka Jenisej, bouře se navrací
               Hmi               F#mi 
 jednou k tvým pramenům mý přání doletí,
          D                        C#7 
 hlava se zatočí jak v hříšným objetí
-
 F#mi 
 Jenisej, až zrada přebolí,
         Hmi                   Emi 

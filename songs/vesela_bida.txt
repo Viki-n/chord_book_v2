@@ -19,8 +19,8 @@ nač by se o to staral, i tak měl svýho dost,
 G         E          A 
 a někdy i vzpomínání překáží.
 
-   G               D     A             D 
-R: Pendrek, pouta, mříž, bachař, cela, hlad,
+     G               D     A             D
+*R:* Pendrek, pouta, mříž, bachař, cela, hlad,
                 G       D      A   D 
 když v Boha nevěříš, co by sis nenakrad'.
 
@@ -33,7 +33,7 @@ dědictví užij s rovnou páteří,
 a vod tý chvíle spát, klidně i hrbatej,
 můžu chodit do Hiltonu do peří.
 
-R:
+*R:*
 
 Teď snídám hemenex a piju Beaujoleaux,
 celý dny jen samý válení,

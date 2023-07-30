@@ -2,8 +2,8 @@ Other side
 Red Hot Chili Peppers
 
 
-   Ami          F           C 
-R: How long how long will I slide
+     Ami          F           C
+*R:* How long how long will I slide
 G           Ami       C 
 Separate my si[F]de I don't
   G                  Ami  
@@ -29,7 +29,7 @@ G              Ami
 Take it on the otherside
 Take it on take it on
 
-R:
+*R:*
 
 Poor my life into a paper cup
 The ashtray's full and I'm spilling my guts
@@ -44,8 +44,10 @@ I've got to take it on the otherside
 Take it on the otherside
 Take it on take it on
 
-   Emi
-R: Turn me on take me for a hard ride
+*R:*
+
+Emi
+Turn me on take me for a hard ride
 C 
 Burn me out leave me on the otherside
    Emi
@@ -55,7 +57,7 @@ I tear it down I tear it down
                     Ami
 And it's born again [F][C][G]
 
-R:
+*R:*
 
 Ami  F      C       G                 Ami F 
 How long I don't I don't believe it's bad 

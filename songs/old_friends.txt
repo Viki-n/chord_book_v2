@@ -13,8 +13,8 @@ I walked up and said hello, I lost my wife two days ago
     F                      G                C 
 You shook my hand and said Francis was your name
 
-                F     G 
-R:And you had a hat   
+                   F     G
+*R:* And you had a hat
             C      Ami 
 And I had a hat    
 F                G 
@@ -33,7 +33,7 @@ I laughed and said that sounds like fun
 We walked into the setting sun
 And Francis said "I'm aiming at the kids"
 
-R:And he threw a rock
+*R:* And he threw a rock
 So I threw a rock
 We both put some gravel in a sock
 And he threw the sock, I said we should stop
@@ -46,7 +46,7 @@ The moon was extra bright that night
 The horses in the pale moonlight
 "Watch this" Francis said, and pulled his gun
 
-R:And he shot a horse
+*R:* And he shot a horse
 So I shot a horse
 Francis choked a chicken with his hands
 But watching them die, he started to cry
@@ -73,7 +73,7 @@ So pour another glass of wine
 With Francis shoulder touching mine
 I 'll stay right here until the bitter end
 
-R:And you have a hat
+*R:* And you have a hat
 And I have a hat
 Mmm, we both have hats
 And your wife is dead

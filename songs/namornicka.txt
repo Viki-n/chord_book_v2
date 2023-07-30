@@ -11,8 +11,8 @@ bez mapy, buzoly, vesel a kormidla
 G        D7      G
 pluje za krásnou Janou. 
 
-   Hmi7      Emi7    Hmi7     Emi7
-R: Za modrým obzorem dva mysy naděje 
+     Hmi7      Emi7    Hmi7     Emi7
+*R:* Za modrým obzorem dva mysy naděje
 A              D7
 lákají odvážné kluky, 
 G                  C
@@ -25,14 +25,14 @@ zpocený tričko si svlíká,
 moře je neklidný, Jana je nastydlá, 
 kašle a loďkou to smýká. 
 
-R:
+*R:*
 
 Maličký námořník s vlnami zápasí, 
 polyká mýdlovou pěnu, 
 loďka se potápí, v takovémto počasí 
 je těžké dobývat ženu. 
 
-R: Za modrým obzorem dva mysy naděje 
+*R:* Za modrým obzorem dva mysy naděje
 čekají na další kluky, 
 maličký námořník i študák z koleje 
 mají cíl na dosah ruky.

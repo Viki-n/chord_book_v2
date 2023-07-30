@@ -14,8 +14,8 @@ to je vínem, to je ten pozdní sběr
 každá kosa najde svůj kámen
 to je vínem, ber mě, ber
 
-           C    H            Emi
-R: Studený nohy schovám doma pod peřinou
+             C    H            Emi
+*R:* Studený nohy schovám doma pod peřinou
        C           H          Emi
 a ráno kafe dám si hustý jako tér
         C         H           Emi
@@ -28,7 +28,7 @@ prší a dlažba leskne se
 je chladno a hlava, ta se točí
 jak světla na plese
 
-R:
+*R:*
 
 Tak mám a nebo nemám kliku
 zakletá panna směje se

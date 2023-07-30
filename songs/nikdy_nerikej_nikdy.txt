@@ -13,8 +13,8 @@ Až se budeš smát, jak už druzí nemohou
 a později se válet těm lepším u nohou.
 Pak mi říkej něco o tom, co je to mít nažito.
 
-     C             G 
-R: /:Nikdy neříkej nikdy
+       C             G
+*R:* /:Nikdy neříkej nikdy
 Ami        F 
 může se to stát
 A# F        G          C 
@@ -28,7 +28,7 @@ Až uvidíš oheň ve svým domě plát
 až se o svůj život budeš doopravdy bát.
 Pak mi říkej něco o tom, co je to mít nažito.
 
-R:
+*R:*
 
 Až si jednou řekneš, co ti ještě schází
 v dokonalým těle najdou metastázi.
@@ -38,4 +38,4 @@ Až budeš bulet v metru, až se budeš smát,
 až si jednou plivneš a až se budeš bát.
 Pak mi říkej něco o tom, co je to mít na žito.
 
-R:
+*R:*

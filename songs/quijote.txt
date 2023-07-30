@@ -16,8 +16,8 @@ Krásná slova v ústech zplaní,
    z bláznů poslední se brání,
    a ten pán Quijote je zván.
 
-         G       D        Ami       Emi 
-R:Tak ať láme se kopí, ať vejpůl je štít
+            G       D        Ami       Emi 
+*R:* Tak ať láme se kopí, ať vejpůl je štít
      G          D          Emi 
 a ať nadranc je prapor, co vlál,
          G      D        C        Emi 
@@ -38,7 +38,7 @@ Moudří vždycky se nám smáli,
    blázny, co si prsty pálí,
    boží syn zbaví všech vin.
 
-R:
-             C     D       Emi 
-R: + pravdu mstít, ať žije král,
+*R:*
+              C      D       Emi
+*R:* + pravdu mstít, ať žije král,
      ať žije král, ať žije král, ať žije král, ať žije král!

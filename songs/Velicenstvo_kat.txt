@@ -16,9 +16,9 @@ pod fialovou komží láhev vitriolu,
 pach síry z hmoždířů se valí k rudé kápi
 /: prvního z rytířů, hle: Veličenstvo Kat. :/
 
-R:
-F           C     B               C 
-Na korouhvi státu je emblém s gilotinou,
+
+     F           C     B               C
+*R:* Na korouhvi státu je emblém s gilotinou,
   F         C     B             C 
 z ostnatýho drátu páchne to shnilotinou,
   Gmi                     Dmi 
@@ -36,8 +36,8 @@ před vraty věznice se procházejí stráže,
 z vojenských pancířů vstříc černý nápis hlásá,
 /: že prvním z rytířů je Veličenstvo Kat. :/
 
-R:
-Nad palácem vlády ční prapor s gilotinou,
+
+*R:* Nad palácem vlády ční prapor s gilotinou,
 děti mají rády kornouty se zmrzlinou,
 soudcové se na ně zlobili,
 zmrzlináře dětem zabili.

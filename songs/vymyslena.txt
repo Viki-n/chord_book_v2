@@ -10,8 +10,8 @@ Odkiaľ sa poznáme nikomu nepoviem
 Klasicky hanblivá, smeje sa očami
 má sinku na lakti a tašku od mamy.
 
-              Ami      F 
-R:Chcem s ňou ísť, vláčikom
+                 Ami      F
+*R:* Chcem s ňou ísť, vláčikom
     G         C 
 na výlet do Modry
 Najprv sa poškriepiť, potom sa udobriť
@@ -26,5 +26,5 @@ Vymýšľať priateľom bláznivé [C]mená
 Čakám ju pred domom, prší mi za golier
 odkiaľ sa poznáme, nikomu nepoviem
 
-R:
+*R:*
 

@@ -16,8 +16,8 @@ když zahoukal k vodjezdu ten ocelovej krám,
 na kytaru na mým klíně koukal
 a za chvíli ptal se, jestli mu ji neprodám.
 
-   F                       Gmi 
-R: Nezdálo se, že je ňákej švorcák,
+     F                       Gmi
+*R:* Nezdálo se, že je ňákej švorcák,
 F                         Gmi         A 
 co by neměl prachy, který dal by za novou,
 F                         Gmi   A 
@@ -30,7 +30,7 @@ patří mojí máti a je starší nežli já,
 je to dárek od někoho z mládí,
 a ten jistě nikomu a nikdy neprodá.'
 
-R:
+*R:*
 
 Když jsem večer v neděli svý mámě
 řek', že ňákej cizí chlap se hrozně zajímá

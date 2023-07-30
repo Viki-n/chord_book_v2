@@ -2,8 +2,8 @@ Lokaj
 Klíč
 
 
-   A                D     A      E   A 
-R: Kde zas vězí ten spící lokaj, kolohnát,
+     A                D     A      E   A
+*R:* Kde zas vězí ten spící lokaj, kolohnát,
                                  D     A     E     A 
 omlouvám se, panstvo, račte jen, tu je salon a tam sad,
 Ami           C     G C    G  C 
@@ -28,7 +28,7 @@ povězte mi, přátelé, kdo tohle může snést,
                G      Emi 
 teď jdu venčit psa, a pak musím:
 
-R:
+*R:*
 
 Psal jsem jí psaníčko:"Krásko, buď zdráva,"
    a ona na to:"Jean, kdy bude ta káva?"
@@ -37,4 +37,4 @@ Psal jsem jí psaníčko:"Krásko, buď zdráva,"
    Povězte mi, přátelé, kdo toto může snést,
    teď jdu utřít prach, a pak musím:
 
-R: \dots Bravo, Jean, teď si smíte dát v kvelbu sklenku, a pak dost!
+*R:* \dots Bravo, Jean, teď si smíte dát v kvelbu sklenku, a pak dost!

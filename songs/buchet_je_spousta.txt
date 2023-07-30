@@ -20,8 +20,8 @@ netřeba záruku
 F                   G 
 jeho se přece nelze vůbec bát
 
-    C             F             G 
-R1: Oslava veliká ať už se chystá
+      C                F         G
+*R1:* Oslava veliká ať už se chystá
 Emi       Ami      Dmi      G 
 buchet je spousta, lahodná sousta
 C                     F            G 
@@ -41,10 +41,10 @@ a srdce z rubínu
 má barvu po vínu
 starý král novému vždy má jej dát
 
-R2: Ta naše dvojice je překvapivá
+*R2*: Ta naše dvojice je překvapivá
 a dle všech známek pekárna -- zámek
 je trasa která někdy krátce trvá
   F           G     Ami G 
 a já ji dobře lásko znám
 
-R1:
+*R1:*

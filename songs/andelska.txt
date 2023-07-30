@@ -20,8 +20,8 @@ a kometa zamíří nad Betlém
 Tu ru tu tu
 Zatím
 
-   A       Hmi7 C#mi7       Hmi7 
-R: Počítám nebe světla, kam nedostanu
+     A       Hmi7 C#mi7       Hmi7
+*R:* Počítám nebe světla, kam nedostanu
 A      C#mi7      Hmi7/F# E 
 Miluju tebe a pak usnu a vstanu
       A  Hmi7  C#mi7 Hmi7 
@@ -41,7 +41,7 @@ A po prvním slunci a s první tmou
 Ta kometa zamíří nad Letnou
 Tu ru tu tu. Zatím
 
-R: Počítám nebe, pusy, co nedostanu
+*R:* Počítám nebe, pusy, co nedostanu
 Miluju tebe a pak usnu a vstanu
 A tak tu ru tu tu, tu ru tu tu
 
@@ -51,4 +51,4 @@ Snad nad ránem na dně se dočtu,
 že v kastlíku andělskou počtu mám
 Tu ru tu tu Zatím
 
-R: 2x
+*R:* 2x

@@ -14,8 +14,8 @@ Dřív pohaslá, najednou hvězda jasná, byla to láska na druhý pohled.
 Jsme propletení, chvíli po setmění.
 
 
-           Emi 
-R1:Pro ten dotyk pamětihodnosti chvílí,
+              Emi
+*R1:* Pro ten dotyk pamětihodnosti chvílí,
       C 
 v ten moment co sám na sebe cílí,
 D                            Hmi 
@@ -31,7 +31,7 @@ Každý se někdy mýlí pod vlivem růžových brýlí, rozum jde někdy strano
 Každý o chybách a já jsem na pochybách, zda je furt in být klukem s kytarou.
 Nic nezmění, to naše souznění.
 
-R1:
+*R1:*
 
 F#mi       D                    A                      C#mi 
 Srdce bije pod taktem euforie a svět s námi sdílí nadšení.
@@ -40,8 +40,8 @@ Jsme v říši divů, a to bez drog, čar a lihu, jsme spolu, v jedno spojeni,
             D 
 navždy spojeni.
 
-           F#mi 
-R2:Pro ten dotyk pamětihodnosti chvílí,
+              F#mi
+*R2:* Pro ten dotyk pamětihodnosti chvílí,
       D 
 v ten moment co sám na sebe cílí,
 A                            C#mi 
@@ -53,6 +53,6 @@ tak líbej mě s vášní jako rudá růže,
 A                    C#mi 
 jsme teď, jsme spolu teď.
 
-R2:
+*R2:*
             D               E                F#mi 
 +jsme spolu teď, jsme spolu teď, jsme navždy teď...

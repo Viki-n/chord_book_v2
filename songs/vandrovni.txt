@@ -16,8 +16,8 @@ a co my jsme mu dali jmen,
 uhasil oheň, zlej byl moc
 daleko dřív, než přišel den.
 
-  F#mi    C#mi    D          A 
-R:Bylo to postý a jako prvně znovu,
+     F#mi    C#mi    D          A
+*R:* Bylo to postý a jako prvně znovu,
 F#mi        C#mi    D              A 
 znám chvíle prostý, v noci slýchám sovu,
 F#mi       C#mi         F#7             Hmi 
@@ -35,4 +35,4 @@ kritik by šílel, dejme tomu,
 nebyl v ní pýr či netopýr,
 jen smutek, že už musím domů.
 
-R:
+*R:*

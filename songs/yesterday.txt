@@ -18,8 +18,8 @@ There's a shadow hanging over me,
 Oh, yesterday came suddenly.
 
 #a a d e f
-   Em   A7 Dm  C  Bb 
-R: Why she had to go,
+     Em  A7  Dm  C  Bb
+*R:* Why she had to go,
 #e d e d c d a
 Dm      C         C7       F 
 I don't know, she wouldn't say.
@@ -30,7 +30,7 @@ Yesterday, Love was such an easy game to play,
 Now I need a place to hide away,
 Oh, I believe in yesterday.
 
-R:
+*R:*
 
 Yesterday, Love was such an easy game to play, 
 Now I need a place to hide away,

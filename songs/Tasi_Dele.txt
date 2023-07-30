@@ -28,9 +28,8 @@ zná soucit i něhu
          A              Esus4 
 jenže ty dlouho se neozýváš[E]
 
-R:
-           Hmi 
-/: Taši de lé
+                Hmi
+*R:* /: Taši de lé
                 E 
 Slunce Sanghy a Dharmy
         A 
@@ -71,8 +70,7 @@ I just haven't heard you
        Esus4
 for so long[E]
 
-R:
-/: Taši delé shining sun
+*R:* /: Taši delé shining sun
 of Sangha taši delé
 Taši delé shining sun
 of Dharma taši delé :/

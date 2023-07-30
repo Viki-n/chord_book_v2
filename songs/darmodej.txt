@@ -24,8 +24,8 @@ tiše se vrtěly rodinné obrázky,
 a já chtěl odpověď na svoje otázky, otázky.
 
 #/: e ede ede efgfedc chc chc cchhhcde :/
-     Am    Em C  Am F#dim 
-R: /:Na na na [G][F][E7]:/
+       Am    Em C  Am F#dim
+*R:* /:Na na na [G][F][E7]:/
 
 Dohnal jsem toho muže a chytl za kabát,
 měl kabát z hadí kůže, šel z něho divný chlad,
@@ -41,8 +41,8 @@ jak moje svědomí, když zvrací v záchodě,
 a já jsem náhle věděl:
 to je Darmoděj, můj Darmoděj.
 
-   Am           Em 
-R: Můj Darmoděj ,
+     Am           Em
+*R:* Můj Darmoděj,
          C     G 
 vagabund osudů a lásek,
 Am            F     F#m 
@@ -60,7 +60,7 @@ a byl v tom všechen žal, ten krásný dlouhý tón,
 a já jsem náhle věděl:
 ano, já jsem on, já jsem on.
 
-R:Váš Darmoděj, vagabund osudů a lásek,
+*R:* Váš Darmoděj, vagabund osudů a lásek,
 jenž prochází všemi sny, ale dnům vyhýbá se,
 váš Darmoděj krásné zlo jed mám pod jazykem
 když prodávám po domech jehly se slovníkem.

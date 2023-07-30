@@ -2,8 +2,8 @@ Postel
 Zřídlo
 
 
-   D            Hmi 
-R: Spát, klidně spát,
+     D            Hmi
+*R:* Spát, klidně spát,
     G            A 
 jen to má pro mě význam,
    C          A7              D 
@@ -28,7 +28,7 @@ mně se o posteli jenom zdá,
 D            A7          D 
 s postelí se loučit bývá nejtěžší.
 
-R:
+*R:*
 
 Postel je čarodějný vynález,
 z postele bych radši ani nevylez',
@@ -38,6 +38,6 @@ na měkkou postel mám nejkrásnější vzpomínky.
 život v posteli se počíná
 a postelí ho nejeden z nás ukončí. :/
 
-R:
+*R:*
 
 3.=1.

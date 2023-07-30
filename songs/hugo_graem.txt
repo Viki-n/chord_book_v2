@@ -16,8 +16,8 @@ Tak vedli Graema ranní tmou,
     a za ním z davu sílil křik:
     pan Hugo Graeme by zemřít měl!
 
-       D              Ami 
-R: Tak vedli jej před soudní dvůr
+         D              Ami
+*R:* Tak vedli jej před soudní dvůr
    C           Ami   D 
 ze šlechticů a lordů jen
     D             Ami 
@@ -30,7 +30,7 @@ Tu paní v černém hovoří
     Můj pane, tisíc liber dám,
     ať Hugo Graeme je volný zas!
 
-R: Vy mlčte, paní z Cairnsmore,
+*R:* Vy mlčte, paní z Cairnsmore,
     já nenechám ho nikdy jít!
     I kdybych dostal pětkrát víc,
     pan Graeme dnes musí mrtev být.
@@ -40,7 +40,7 @@ Tu mluví paní z Drumlanford:
     sto hřebců ze svých stájí dám,
     když jeho život zachrání.
 
-R: Vy mlčte paní z Drumlanford,
+*R:* Vy mlčte paní z Drumlanford,
     věc mojí cti to musí být!
     Když Huga Graema v poutech mám,
     tak živý nesmí odejít.
@@ -55,7 +55,7 @@ R: Vy mlčte paní z Drumlanford,
     i když mi vezmou život můj,
     mé nebe nemůžou mi vzít.
 
-R: Ať bratr Jan si meč jde vzít
+*R:* Ať bratr Jan si meč jde vzít
      zlatavým ostřím zářící
      a ať se ráno podívá,
      jak stojím pod šibenicí.
@@ -65,7 +65,7 @@ Ať bratr Jakub vezme štít,
      a ať se přijde podívat,
      jak visím tu oběšený.
 
-R: V zelených kopcích u Glenmore,
+*R:* V zelených kopcích u Glenmore,
      tam pozdravte Maggie, ženu mou,
      to pro ni ztrácím život svůj,
      to ona je tou příčinou.

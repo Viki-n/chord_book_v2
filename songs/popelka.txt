@@ -22,8 +22,8 @@ Víš dobře kudy jde, tak ať tě nemine,
         G                  D 
 víš, že zázrak prej se smí stát.
 
-   Emi     C 
-R: Popel a hrách,
+     Emi     C
+*R:* Popel a hrách,
   G    D              Emi  C 
 a hry, co se nedají vyhrát 
     G                D 
@@ -50,7 +50,7 @@ každou noc vyzkoušíš novej střevíc.
 Než ze sna procitáš, půlnoc je odbitá,
 kočár dávno ztratil se v tmách.
 
-R:
+*R:*
 
 Žiješ na kolejích,
 vlaky už odjely
@@ -63,4 +63,4 @@ a smejváš z pod vočí černý splíny.
 Víš dobře kudy ne, nebe tě nemine,
 tak proč bejváš tak nejistá.
 
-R: + přeber si to sama
+*R:* + přeber si to sama

@@ -11,7 +11,8 @@ za nehty výčitky a špína,
 H7                      Emi  Edim, H7
 říkalas': dnešní noc je tvá.
 
-R:
+*R:*
+
 G                         H 
 Co my dva z lásky vlastně máme,
 Ami      Edim           H7 
@@ -28,14 +29,15 @@ neznámí známí v tramvaji,
 v cukrárně kávu s harlekýnem,
 hořká a sladká splývají.
 
-R:
+*R:*
 
 Bylas' jak poslední hlt vína,
 zbývá jen účet zaplatit a jít,
 za nehty výčitky a špína
 a trapný průchod banalit.
 
-R:
+*R:*
+
 Co my tři z lásky vlastně máme,
 hlubokou šachtou padá zdviž, co čumíš, kiš-kiš,
 navrch má vždycky těžký kámen

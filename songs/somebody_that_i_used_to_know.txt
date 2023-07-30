@@ -20,8 +20,8 @@ So when we found that we could not make sense
 Well you said that we would still be friends
 But I'll admit that I was glad that it was over
 
-  Dmi     C              A#     C 
-R:But you didn't have to cut me off
+     Dmi     C              A#     C
+*R:* But you didn't have to cut me off
 Dmi      C             A# 
 Make out like it never happened
          C         Dmi 
@@ -63,7 +63,7 @@ You said that you could let it go
                                     N.C. 
 And I wouldn't catch you hung up on somebody that you used to know
 
-R:
+*R:*
 
     Dmi     C       A#      C 
 Somebody...       I used to know

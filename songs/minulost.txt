@@ -8,8 +8,8 @@ stejně tak na tebe za rohem čeká  tvoje minulost
 šatý má tytéž, vlasy má tytéž, a boty kožené
 pomalu kluhavě za tebou pajdá, až tě dožene
 
-             D               A 
-a řekne: R:  Tak mě tu máš,  tak si mě zvaž
+               D               A
+a řekne: *R:*  Tak mě tu máš,  tak si mě zvaž
 Hmi            A                           D 
 pozvi mě dál,  jestli mě znáš, jsem tvoje  minulost
 
@@ -18,14 +18,14 @@ dávno jsi zapomněl to, co jsi koupit měl v samoobsluze
 všechno, cos po cestě poztrácel, zmizelo jak vlaky na trati
 ta holka nese to v batohu na zádech, ale nevrátí
 
-jen říká: R:
+jen říká: *R:*
 
 Stromy jsou vyšší a tráva je nižší a na louce roste pýr
 červené tramvaje jedoucí do Kunčic svítí jak pionýr
 jenom ta tvá pyšná hlava ti nakonec zůstala na šíji
 průvodčí, kteří tě vozili před léty dávno nežijí
 
-R:
+*R:*
 
 Na větvích jabloní nerostou fíky a z kopřiv nevzroste les
 to, co jsi nesnědl včera a předvčírem musíš dojíst dnes
@@ -33,7 +33,7 @@ solené mandle i nasládlé hrozny máčené do medu
 ty sedíš u stolu a ona nese ti jídlo k obědu
 a říká
 
-R:
+*R:*
 
 Rozestel postel a ke zdi si lehni, ona se přitulí
 dneska tě navštíví ti, kteří byli a ti, kteří už minuli
@@ -41,5 +41,5 @@ každého po jménu oslovíš, neboť si vzpomeneš na jména
 ráno se probudíš a ona u tebe v klubíčku schoulená
 řekne ti
 
-R:  Tak mě tu máš, tak si mě zvaž
+*R:*  Tak mě tu máš, tak si mě zvaž
 pozvals mě dál, teď už mě znáš, jsem tvoje minulost

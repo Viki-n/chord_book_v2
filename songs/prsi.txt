@@ -2,8 +2,8 @@ Prší
 Karel Plíhal
 
 
-   C    Dmi      G            C        C/H 
-R: Prší a hvězdy na plakátech blednou, 
+     C    Dmi      G            C        C/H
+*R:* Prší a hvězdy na plakátech blednou, 
 Dmi       E            Ami     Ami/G 
 zpívám si spolu s reprobednou, 
        F            G 
@@ -20,7 +20,7 @@ proč místo toho kropení si nezaleze k topení
   G           C             F          E 
 a nepřečte si McBaina, proč vozí mouku do mlejna.
 
-R:
+*R:*
 
 Prší a soused venku prádlo věší,
 práce ho, jak je vidět, těší,

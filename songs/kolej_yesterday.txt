@@ -21,8 +21,8 @@ To tenkrát ještě holkám rostly vlasy,
             F     G    C    E 
 vracel se s kytkou za uchem.
 
-            A          D 
-R: Prázdnou ulicí na kolej,
+              A          D
+*R:* Prázdnou ulicí na kolej,
           G            C 
 jo, to je dávno, Yesterday,
 H         E Ami 
@@ -42,7 +42,7 @@ Tenkrát, hochu, ještě ozáření
    a byly řeky po setmění,
    kam jsi moh chodit na sumce.
 
-R: A ty pak hodit na olej,
+*R:* A ty pak hodit na olej,
    jo, to je dávno, Yesterday,
    Yesterday.
 
@@ -53,6 +53,6 @@ To bejvávaly na koleji časy,
    a někdo zbořil Eiffelovku
    ze snů a peří, ze sirek.
 
-R: A od tý doby ta kolej
+*R:* A od tý doby ta kolej
    patří už dávno Yesterday,
    Yesterday.

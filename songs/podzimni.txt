@@ -2,8 +2,8 @@ Podzimní
 Karel Plíhal
 
 
-A                          D 
-Podzimní obloha dala se do gala,
+   A                          D
+/: Podzimní obloha dala se do gala,
 E                         A
 večerní vánek se do vlasů vplétá,
                          D
@@ -24,12 +24,9 @@ je totiž podzim a brzo se stmívá.
 Zmizely splíny a přívaly pláče
 a s nima ty protivný přízraky z minula,
 připravte obvazy, dlahy a fáče,
-kdyby se náhodou se zemí minula.
+kdyby se náhodou se zemí minula.:/
 
-Vše znova...
-
-2x:
-Podzimní obloha dala se do gala,
+/: Podzimní obloha dala se do gala,
 večerní vánek se do vlasů vplétá,
 podzimní obloha dala se do gala,
-večerní vánek se do vlasů vplétá.
+večerní vánek se do vlasů vplétá.:/

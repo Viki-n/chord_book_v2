@@ -2,9 +2,8 @@ Africa
 Toto
 
 
-Intro:
-D F#mi 
-      x4
+*Intro:*[D] [F#mi] x4
+
 
 E                G#mi     C#mi 
 I hear the drums echoin tonight
@@ -23,7 +22,7 @@ He turned to me as if to say  hurry boy it's waiting there for you
 
 
    Hmi          G               D        A 
-R: Gonna take a lot to drag me away from you
+*R:* Gonna take a lot to drag me away from you
 Hmi                    G              D               A 
 There's nothing that a hundred men or more could ever do
 Hmi         G             D   A 
@@ -39,11 +38,11 @@ Sure as kilimangiaro rises like olimpus above the seranget-ti
 I seek to cure what's deep inside
 Frightened of this thing that I've become
 
-R:
+*R:*
 
-Interlude
+*Interlude:*
 E   G#mi   C#mi   E   D   F#mi   C#mi    D   F#mi 
 E  G#mi  C#mi             D                 F#mi 
           hurry boy it's waiting there for you
 
-R: 3. řádek 5x
+*R:* 3. řádek 5x

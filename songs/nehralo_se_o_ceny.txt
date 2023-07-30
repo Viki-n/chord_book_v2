@@ -15,8 +15,8 @@ Vod lidí pohled kyselej
 a kam jet, to nám bylo volný,
 každej už hrozně dospělej,
 i když to věkem bylo sporný.
-        D 
-R: Když na nádraží při pátku
+          D
+*R:* Když na nádraží při pátku
                           A 
 nám čekání se kdysi zdálo dlouhý,
     D 
@@ -37,7 +37,7 @@ a bral ho stejně jako pravý,
 vždyť na tom, jakej kdo z nás byl,
 stálo, jak bude přiléhavý.
 
-R:
+*R:*
 
 Přesto, že každej jinam šel
 životem úspěchů i pádů,

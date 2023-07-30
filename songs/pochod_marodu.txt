@@ -17,7 +17,7 @@ u srdce divný zvuk, co je to, nemám šajn,
 je to vlastně fuk, žijem fajn, žijem fajn, fajn, fajn.
 
    Ami      C         G      C
-R: Cirhóza, trombóza, dávivý kašel,
+*R:* Cirhóza, trombóza, dávivý kašel,
 Dmi    Ami  E         Ami
 tuberkulóza jó, to je naše!
          C         G      C
@@ -39,8 +39,7 @@ doktoři vylezou na naše tělo, lo, lo,
 budou nám řezati ty naše vnitřnosti
 a přitom zpívati ze samé radosti, sti, sti.
 
-R:
-Zpívati: cirhóza, trombóza, dávivý kašel,
+*R:* Zpívati: cirhóza, trombóza, dávivý kašel,
 tuberkulóza, hele, já jsem to našel!
 Neuróza, skleróza, křivičná záda,
 paradentóza, no to je paráda!
