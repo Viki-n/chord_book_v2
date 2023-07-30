@@ -27,6 +27,5 @@ už zejtra budem s pláčem sedlat opodál.
 *R:* Starý jezdec bez otěží do chomoutu vlít',
 o hřebce tu neběží, vždyť holka chce si žít.
 
-/:Budou prstýnky a hříva a čeledín je mlád,
-                                             (C G) 
-a proto kůň jen krkem kývá a smíchy chtěl by ržát.:/
+/: Budou prstýnky a hříva a čeledín je mlád,
+a proto kůň jen krkem kývá a smíchy chtěl by [(C G)]ržát.:/
