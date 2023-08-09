@@ -24,6 +24,9 @@ def convert(source, target):
                 break
             if line.startswith('#'):
                 continue
+            if line.startswith('?'):
+                f.write(line[1:])
+                continue
             line = re.sub(r'] *\[', '][', line)
             if not line and verse:
                 f.write('}\n')

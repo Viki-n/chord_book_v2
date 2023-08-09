@@ -71,7 +71,7 @@ Sillä ei meitä silloin kiellot haittaa
 Kun myö tanssimme laiasta laitaan.
 Salivili hipput tupput täppyt
 Äppyt tipput hilijalleen.
-
+?\iftoc\else\vskip\blockseparator\fi
 Ievan suu oli vehnäsellä
 Ko immeiset onnee toevotti.
 Peä oli märkänä jokaisella
@@ -80,7 +80,7 @@ Ei tätä poikoo märkyys haittaa
 Sillon ko laskoo laiasta laitaan.
 Salivili hipput tupput täppyt
 Äppyt tipput hilijalleen.
-
+?\iftoc\else\vskip\blockseparator\fi
 Ievan äiti se kammarissa
 Virsiä veisata huijjuutti,
 Kun tämä poika naapurissa
@@ -89,7 +89,7 @@ Eikä tätä poikoo ämmät haittaa
 Sillon ko laskoo laiasta laitaan.
 Salivili hipput tupput täppyt
 Äppyt tipput hilijalleen.
-
+?\iftoc\else\vskip\blockseparator\fi
 Hilipati hilipati hilipati hillaa,
 Hilipati hilipati hilipampaa
 Jalituli jallaa talituli jallaa

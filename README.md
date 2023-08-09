@@ -32,6 +32,9 @@ for a good line break. Note that
    1) No other line breaks will happen, ever (lyrics may flow out of the right end of the page)
    2) Line breaks will only happen if the line would not fit within the width of the page otherwise. Line breaks will not occur to allow columned typesetting. 
    3) Do not forget about whitespace around the pipe. For best results, use one space before pipe and no spaces after it. 
+6) Lines that have a question mark (?) as their first non-whaitespace character will only
+be formatted partially only (transalting lyrics into corresponding TeX commands will be skipped), but efficiently using this feature may require extenive
+knowledge of inner workings of TeX macros in this repository
 
 Verses are separated by one or more empty lines (in case the last line of verse has chords
 only (rather than also lyrics), use a minimum of two empty lines).
