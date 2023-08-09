@@ -8,11 +8,15 @@ def convert(source, target):
         with open(source, encoding='utf8') as f:
             lines = iter(f.readlines())
 
+    pre = ''
     name = next(lines).strip()
+    while name.startswith('?'):
+        pre += name[1:] + '\n'
+        name = next(lines).strip()
     author = next(lines).strip()
 
     with open(target, 'w', encoding='utf8') as f:
-        f.write(f'\\fullsong{{{name}}}{{{author}}}{{')
+        f.write(f'{pre}\\fullsong{{{name}}}{{{author}}}{{')
 
         verse = False
         while True:

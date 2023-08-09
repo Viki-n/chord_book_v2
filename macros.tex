@@ -32,6 +32,14 @@
 \colwidth=0.5\hsize
 \advance\colwidth by -0.5\colseparator
 %
+% Colors
+%
+\def\Black{\pdfliteral{0 0 0 1 k 0 0 0 1 K}}
+\def\White{\pdfliteral{0 0 0 0 k 0 0 0 0 K}}
+\def\old{\global\let\numcolor=\Black\global\let\backcolor=\White}
+\def\new{\global\let\numcolor=\White\global\let\backcolor=\Black}
+\old
+%
 % define variables%
 %
 \newdimen\cursongspace
@@ -126,7 +134,7 @@
 \font\namefont=\fontname\tenbf\space scaled 1500
 \font\authorfont=\fontname\tenrm\space scaled 700
 \def\numberstrut{\hbox{\vrule height 20pt width 0pt depth 3.5pt}}
-\def\songheader#1#2{\anchor{\the\songcount}\hbox{\vbox{\hrule\hbox to 1.5cm{\vrule\hss\numberstrut\numberfont\the\songcount\vrule}\hrule}\hskip 0.5em\hbox{\vbox{\hbox{\namefont #1}\hbox{\authorfont #2}}}}\vskip\blockseparator\global\advance\songcount by 1}
+\def\songheader#1#2{\anchor{\the\songcount}\hbox{\vbox{\hrule\hbox{\vrule\vbox to 0pt{\hbox to 0pt{\vbox{\vskip -20pt\backcolor\hrule width 1.5cm height 23.5pt depth 0pt\Black}\hss}\vss}\hbox to 1.5cm{\hss\numberstrut\numberfont\numcolor\the\songcount\Black}\vrule}\hrule}\hskip 0.5em\hbox{\vbox{\hbox{\namefont #1}\hbox{\authorfont #2}}}}\vskip\blockseparator\global\advance\songcount by 1\old}
 %
 % Correct handling of page breaks
 %

@@ -12,7 +12,7 @@ Replace the contents of the snongs directory by your own choice of songs. The fo
 
 Each song is separate text file (using utf8 encoding)
 
-First line of the file contains the name of the song
+First line of the file (other than lines starting with question marks) contains the name of the song
 Second line contains the author
 
 Then there are the actual lyrics. Chords and other texts that are supposed to go above the lyrics can be specified
@@ -34,7 +34,8 @@ for a good line break. Note that
    3) Do not forget about whitespace around the pipe. For best results, use one space before pipe and no spaces after it. 
 6) Lines that have a question mark (?) as their first non-whaitespace character will only
 be formatted partially only (transalting lyrics into corresponding TeX commands will be skipped), but efficiently using this feature may require extenive
-knowledge of inner workings of TeX macros in this repository
+knowledge of inner workings of TeX macros in this repository. This also works at the top of the file (before name)
+but not between name and author.
 
 Verses are separated by one or more empty lines (in case the last line of verse has chords
 only (rather than also lyrics), use a minimum of two empty lines).
