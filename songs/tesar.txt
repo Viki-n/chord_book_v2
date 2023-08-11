@@ -12,7 +12,7 @@ Já pochoval jsem otce i matku svou
 a na světě jen tebe už mám.
 
 Víš, kdybych mohla tenkrát 
-    se tvojí ženou stát
+\quad\quad se tvojí ženou stát
 šťastně spolu mohli jsme žít.
 Teď mužem mým je tesař, ach lásko má
 a jemu navždy věrná chci být.
@@ -24,7 +24,8 @@ musíš zpátky sám odejít.
 
 Zanech svého muže, ach lásko má
 snad nechceš zůstat navždy chudobná.
-Pojď, odpluj se mnou přes moře na sever
+Pojď, odpluj se mnou
+\quad\quad přes moře na sever
 on nemůže ti dát to co já.
 
 A co bys můj milý, co moh' bys mi dát
@@ -82,12 +83,14 @@ a stěžeň jako stéblo ohýbá
 a do temných hlubin se loď propadá
 a s ní i láska má a já.
 
-Ach pohlédni vzhůru na tu nádhernou zář
+Ach pohlédni vzhůru na tu
+\quad\quad nádhernou zář
 a co ta zlatá brána znamená?
 To je brána nebes, ach lásko má
 však pro nás navěky zavřená.
 
-A co je to tam v dálce, mám strach lásko má
+A co je to tam v dálce,
+\quad\quad mám strach lásko má
 co tak temné a tak hrozné může být?
 To je brána pekel, ach lásko má
 tam oba dva teď musíme jít
