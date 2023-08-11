@@ -111,7 +111,7 @@ def convert(source, target):
                 assert not bold and not italics, f'unmatched * or _ in {line}, {name}'
         f.write('}\n')
 
-    return name
+    return f'{name} # {author}'
 
 
 def start_lyrics(last_space, f):
