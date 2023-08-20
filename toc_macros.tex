@@ -9,6 +9,13 @@ goto num #1%
 #2
 \pdfendlink
 }
+\def\talllink#1#2{%
+\pdfstartlink%
+height 16 pt depth 1pt%
+goto num #1%
+#2%
+\pdfendlink%
+}
 \def\anchor#1{\pdfdest num #1 xyz}
 
 
@@ -17,7 +24,7 @@ goto num #1%
 \newcount\i
 \i=1
 \long\def\fullsong#1#2#3{
-\hbox to \hsize{\hskip 1em\relax\link{\the\i}{#1}\leaders\hbox{.}\hfil\the\i\hskip 1em}
+\anchor{1000\the\i}\hbox to \hsize{\hskip 1em\relax\link{\the\i}{#1}\leaders\hbox{.}\hfil\the\i\hskip 1em}
 \advance\i by 1
 }
 \def\toc#1{
