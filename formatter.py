@@ -26,6 +26,8 @@ def convert(source, target):
                 if verse:
                     f.write('}\n')
                 break
+            if '....' not in line:
+                line = line.replace('...', r'\dots{}')
             if line.startswith('#'):
                 continue
             if line.startswith('?'):
