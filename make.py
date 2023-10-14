@@ -9,10 +9,8 @@ translit_dict = dict(zip('ěščřžýáíéťóďň', 'escrzyaietodn'))
 
 def translit(s):
     s = s.lower()
-    for k, v in translit_dict.items():
-        s = s.replace(k, v)
-    return s
-
+    # ensure accented letters are immediately after their non-accented variant
+    return [(translit_dict.get(ch, ch), ch) for ch in s]
 
 def make_book():
 
