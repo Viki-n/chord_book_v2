@@ -17,14 +17,12 @@ pach síry z hmoždířů se valí k rudé kápi
 /: prvního z rytířů, hle: Veličenstvo Kat. :/
 
 
-     F           C     B               C
-*R:* Na korouhvi státu je emblém s gilotinou,
-  F         C     B             C 
-z ostnatýho drátu páchne to shnilotinou,
-  Gmi                     Dmi 
-v kraji hnízdí hejno krkavčí,
-Gmi                     A7 
-lidu vládne mistr popravčí.
+     F           C     B               C        F         C     B             C
+*R:* Na korouhvi státu je emblém s gilotinou, z ostnatýho drátu páchne to shnilotinou,
+  Gmi                     Dmi Gmi                     A7
+v kraji hnízdí hejno krkavčí, lidu vládne mistr popravčí.
+
+
 
 Král klečí před Satanem na žezlo se těší
 a lůza pod platanem radu moudrých věší
@@ -37,10 +35,8 @@ z vojenských pancířů vstříc černý nápis hlásá,
 /: že prvním z rytířů je Veličenstvo Kat. :/
 
 
-*R:* Nad palácem vlády ční prapor s gilotinou,
-děti mají rády kornouty se zmrzlinou,
-soudcové se na ně zlobili,
-zmrzlináře dětem zabili.
+*R:* Nad palácem vlády ční prapor s gilotinou, děti mají rády kornouty se zmrzlinou,
+soudcové se na ně zlobili, zmrzlináře dětem zabili.
 
 Byl hrozný tento stát, když musel jsi se dívat,
 jak zakázali psát a zakázali zpívat,
