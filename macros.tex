@@ -140,7 +140,7 @@
 %
 % Macro that ensues you are on the top of an even numbered page
 %
-\ifevenright\let\maybeelse\relax\else\let\maybeelse\else\fi
+\ifevenleft\let\maybeelse\relax\else\let\maybeelse\else\fi
 \def\openleft{
 \vfil\eject
 \ifodd\pageno\maybeelse\hbox{}\vfil\eject\fi

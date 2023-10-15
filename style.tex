@@ -25,7 +25,7 @@
 
 \ifprintformat
 \advance\hoffset by -0.5cm
-\ifevenright
+\ifevenleft
 \output{\ifodd\pageno\advance\hoffset by 1cm\fi\plainoutput}
 \else
 \output{\ifodd\pageno\else\advance\hoffset by 1cm\fi\plainoutput}
