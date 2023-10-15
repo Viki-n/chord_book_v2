@@ -1,0 +1,16 @@
+% set whether to format for printing or a screen
+\newif\ifprintformat
+\printformattrue
+
+% set whether odd or even pages are supposed to be left (even for paper, odd for some pdf viewers)
+\newif\ifevenleft
+\evenlefttrue
+
+\input style
+\input titlepage
+\input toc_macros
+\toc{songs_optimized}
+\input macros
+\input songs_optimized
+
+\bye
