@@ -55,15 +55,17 @@ stripped of its usual special meaning
 
  - Run make.py (tested for python 3.9, but 3.7 or above should work)
  - make sure to rewrite contents of titlepage.tex to your liking
- - compile songbook.tex using your favorite pdf plain TeX compiler (pdfcsplain is recommended for usage with czech characters)
+ - compile songbook.tex (or one of the other variants, if you so desire) using your favorite pdf plain TeX compiler (pdfcsplain is recommended for usage with czech characters)
 
 ### Songs trash
 
 This directory contains songs that I do not know, like and/or want to learn, but which are still at least somewhat
 formatted into compatibility wiht the rest of the book.
 
-## Further upcoming additions
+## Upcoming additions
 
- - there will be more songs prepared for your convenience
- - downloaders from some czech and international chord servers are planned (pisnicky-akordy.cz, supermusic.sk, ultimate-guitar.com)
- - Option for alternating margins on odd and even pages for printing purposes will be added
+The project is currently considered finished, and while a few new songs may appear from time to time, no major additions are planned.
+
+Downloaders from some czech and international chord servers are no longer planned (pisnicky-akordy.cz, supermusic.sk, ultimate-guitar.com).
+Turns out, all of those servers provide sensible export and/or are already in format where the songs can be copy-pasted to a new file where
+they are compliant with the syntax described above with minimal manual changes. Those have to be done by hand anyway.
