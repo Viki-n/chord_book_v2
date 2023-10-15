@@ -280,7 +280,12 @@
 \box4
 \vfil
 \eject
+% Sometimes, splitting may be more effective than halving, leading to
+% fail in first pass but actually suceeding in second pass on first page only
+% leading to extra vertical spacing on the new page after empty box if we insert it anyway
+\ifdim \ht3 > 0pt
 \box3
+\fi
 \fi
 \fi
 \fi
