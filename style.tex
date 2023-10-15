@@ -22,3 +22,12 @@
 
 % make spaces a tiny bit thinner
 \fontdimen2\font=3pt
+
+\ifprintformat
+\advance\hoffset by -0.5cm
+\ifevenright
+\output{\ifodd\pageno\advance\hoffset by 1cm\fi\plainoutput}
+\else
+\output{\ifodd\pageno\else\advance\hoffset by 1cm\fi\plainoutput}
+\fi
+\fi
