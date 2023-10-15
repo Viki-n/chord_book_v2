@@ -6,9 +6,9 @@ Karel Kryl
 V ponurém osvětlení gotického sálu
 F                Gmi        A 
 kupčíci vyděšení hledí do misálů
-Dmi      B          C         F D
+Dmi      B          C         F Gmi
 a houfec mordýřů si žádá požehnání,
-   Gmi           Dmi       A7          Dmi    C Emi D
+                 Dmi       A7          Dmi    C Emi D
 /: vždyť první z rytířů je Veličenstvo Kat. :/
 
 Kněz-ďábel, co mši slouží, z oprátky má štolu,
@@ -17,7 +17,7 @@ pach síry z hmoždířů se valí k rudé kápi
 /: prvního z rytířů, hle: Veličenstvo Kat. :/
 
 
-     F           C     B               C        F         C     B             C
+     F           C     Hb              C      F           C     Hb              C
 *R:* Na korouhvi státu je emblém s gilotinou, z ostnatýho drátu páchne to shnilotinou,
   Gmi                     Dmi Gmi                     A7
 v kraji hnízdí hejno krkavčí, lidu vládne mistr popravčí.

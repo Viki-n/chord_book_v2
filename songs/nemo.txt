@@ -4,11 +4,11 @@ Nightwish
 
 Dm         C
 This is me for forever
-Bb              Dm 
+Hb              Dm
 One of the lost ones
 Dm                C 
 The one without a name
-           Gm              Bb C
+           Gm              Hb C
 Without an honest heart as compass
 
 This is me for forever
@@ -34,9 +34,9 @@ Fm                  Eb
 Walk the dark path, swim with angels
 Db 
 Call the past for help
-Bbm                Fm 
+Hbm                Fm
 Touch me with your love
-      Bbm           Db   Eb
+      Hbm           Db   Eb
 And reveal to me my true name
 
 *R1:*

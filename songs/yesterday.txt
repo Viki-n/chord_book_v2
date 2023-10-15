@@ -4,13 +4,13 @@ Beatles
 
 #4/8 – P p p p / P p P p
 #g f a h c d e f e d d
-F        F Em7    A7                  Dm     Dm     Bb 
+F          Em7    A7                 Dm             Hb
 Yesterday, All my troubles seemed so far away, [Dm7]
 #d d c hb a g hb a a
-        C        (C7)          F             F 
+       C        (C7)           F             F
 Now it looks as though they're here to stay, [C]
 #g f a g d f a a
-    Dm7  G7       Bb F 
+    Dm7 G7       Hb    F
 Oh, I believe in yesterday.
 
 Suddenly, I'm not half the man I used to be 
@@ -18,7 +18,7 @@ There's a shadow hanging over me,
 Oh, yesterday came suddenly.
 
 #a a d e f
-     Em  A7  Dm  C  Bb
+     Em  A7  Dm  C  Hb
 *R:* Why she had to go,
 #e d e d c d a
 Dm      C         C7       F 

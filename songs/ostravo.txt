@@ -4,8 +4,8 @@ Jaromír Nohavica
 
 Dmi A7 Dmi A7 Dmi A7 Dmi A7  Dmi
 
-Dmi B C F Gmi Dmi A7 Dmi 
-Dmi B C F Gmi Dmi A7 Dmi A7
+Dmi Hb C F Gmi Dmi A7 Dmi
+Dmi Hb C F Gmi Dmi A7 Dmi A7
 
 Dmi           A7 
 Ostravo, Ostravo,
