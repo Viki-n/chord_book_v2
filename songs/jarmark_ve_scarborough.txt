@@ -1,3 +1,4 @@
+?\def\cskip#1{\setbox20\hbox{#1}\hskip\wd20}
 Jarmark ve Scarborough
 Karel Gott a Marta Kubišová
 
@@ -12,13 +13,13 @@ Ami      G              Ami
 k tý, co má tak voňavej klín.
 
 Ať jen si žehlí svou blůzku dál,
-\hskip 2cm někde tam na sto mil, kde je les plnej
+\cskip{Ať jen si žehlí }někde tam na sto mil, kde je les plnej
 \quad šalvěj, zázvor, muškát a kmín,
-včel \hskip 3.9cm chystá se jarmark a víno už zrá,
+\hbox to 0pt{včel\hss}\cskip{\quad šalvěj, zázvor, muškát a }chystá se jarmark a víno už zrá,
 že přijde k ní, kdo svůj slib dal,
-\hskip 3.2cm koukej těch taftů a krajek
+\cskip{že přijde k ní, kdo }koukej těch taftů a krajek
 k tý, co má tak voňavej klín,
-pláten,\hskip 3.1cm spí aniž ví, jakej spánek mám já.
+\hbox to 0pt{pláten,\hss}\cskip{k tý, co má tak voňavej }spí aniž ví, jakej spánek mám já.
 
 Koláč ať chystá a svatební číš,
 \quad někde tam na sto mil, kde z domků jde kouř,

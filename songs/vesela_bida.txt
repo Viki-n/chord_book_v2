@@ -44,4 +44,4 @@ a cigarety kamarádem balený,
 krev taky není voda, a proto ve mně hlodá,
 Že ta bída byla aspoň veselá
    G          A          D
-/: že ta bída byla aspoň veselá:/ 7x fadeout
+/: že ta bída byla aspoň veselá<7x do ztracena>:/
